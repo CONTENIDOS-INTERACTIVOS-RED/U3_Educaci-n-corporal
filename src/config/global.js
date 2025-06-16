@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '1',
-    tituloUnidad: 'Corporalidad y formación Integral',
+    numeroUnidad: '3',
+    tituloUnidad: 'Educación Física',
   },
   menuPrincipal: {
     menu: [
@@ -15,19 +15,20 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'El cuerpo y el movimiento en relación consigo mismo.',
+        titulo: 'Ejercicios de gimnasia',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Conciencia Corporal',
+            titulo: '¿Qué son los ejercicios de gimnasia?',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Autopercepción',
+            titulo:
+              'Consideraciones para la práctica y enseñanza según la edad',
             hash: 't_1_2',
           },
         ],
@@ -36,32 +37,22 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'El cuerpo y el movimiento en relación hacia los demás.',
+        titulo:
+          'Creación de ambientes educativos para realizar actividades de educación física.',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Competencias sociales',
+            titulo: 'El juego como recurso didáctico en Educación Física',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Competencias emocionales',
+            titulo:
+              'Los objetivos de la enseñanza de Educación Física en la educación.',
             hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Competencias comunicativas',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Competencias Ciudadanas',
-            hash: 't_2_4',
           },
         ],
       },
@@ -103,117 +94,95 @@ export default {
   referencias: [
     {
       referencia:
-        'Gutiérrez, E., & Castillo, J. A. (2014). Reflexiones sobre la concepción del cuerpo y del movimiento para una educación integral de la primera infancia. Praxis Pedagógica, 14(15), 15–42.',
-      link: 'https://doi.org/10.26620/uniminuto.praxis.14.15.2014.15-42',
-    },
-    {
-      referencia:
-        'Coaching. (2021, April 15). 5 actividades para mejorar la conciencia corporal en los niños. Formainfancia.',
-      link: 'https://formainfancia.com/conciencia-corporal-ninos-actividades/',
-    },
-    {
-      referencia:
-        'Duarte, J. A., Rodríguez, L. C., & Castro-Martínez, J. A. (2017). Cuerpo y movimiento en la educación inicial: concepciones, intenciones y prácticas. Universidad del Rosario.',
+        'Fonseca González, I. (2023). Manual de gimnasia con el niño.',
       link:
-        'https://repository.urosario.edu.co/server/api/core/bitstreams/eb363283-8324-40d9-a290-07ea7bb53823/content',
+        'https://www.ninoanino.org/wp-content/uploads/2023/07/Manual-de-gimnasia-con-el-nino_compressed.pdf',
     },
     {
       referencia:
-        'Cañizares Márquez, J. M. & Carbonero Celis, C. (2016). Capacidades perceptivo motrices: esquema corporal y lateralidad en la infancia: ( ed.). Wanceulen Editorial.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/63428?page=16',
-    },
-    {
-      referencia:
-        'Campo Ternera, L. A. (2014). El desarrollo del autoconcepto en niños y niñas y su relación con la interacción social en la infancia. Psicogente, 17(31), 67-79.',
+        'Organización Mundial de la Salud [OMS]. (2021). DIRECTRICES DE LA OMS SOBRE ACTIVIDAD FÍSICA y COMPORTAMIENTOS SEDENTARIOS. Organización Mundial de la Salud.',
       link:
-        'http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0124-01372014000100005',
+        'https://iris.who.int/bitstream/handle/10665/349729/9789240032194-spa.pdf?sequence=1',
     },
     {
       referencia:
-        'Quintero, M.L. Montenegro, M.L. (2015). Desarrollo emocional y afectivo en la primera infancia.',
+        'UNICEF. (2019). La actividad física en niños, niñas y adolescentes. Fondo de las Naciones Unidas Para la Infancia.',
       link:
-        'https://repository.unad.edu.co/bitstream/handle/10596/3493/1077853323-%20Desarrollo%20Emocional%20y%20Afectivo%20en%20la%20Primera%20Infancia.pdf?sequence=3',
+        'https://www.unicef.org/uruguay/media/2276/file/La%20actividad%20f%C3%ADsica%20en%20ni%C3%B1os,%20ni%C3%B1as%20y%20adolescentes.pdf',
+    },
+    {
+      referencia: 'Decorexpro. (2024). Carga para niños de 3-4 años.',
+      link: 'https://little.decorexpro.com/es/zaryadka/dlya-detej-3-4-let/',
     },
     {
       referencia:
-        'Rodríguez Camón, E. (2016, 6 julio). Habilidades sociales en la infancia: ¿cuáles son y cómo desarrollarlas? Psicologiaymente.',
+        'Ríos Ferreras, C. (2014). Los ambientes de aprendizaje y espacios de fantasía en la educación física. Trabajo de Fin de Grado, Universidad de Salamanca.',
       link:
-        'https://psicologiaymente.com/desarrollo/habilidades-sociales-infancia',
+        'https://gredos.usal.es/bitstream/handle/10366/125861/TG_RIOS%20FERRERAS%2C%20Carlos_Ambientes.pdf?sequence=1',
     },
     {
       referencia:
-        'Bisquerra Alzina, R., & Pérez Escoda, N. (2007). Las competencias emocionales. Educación XX1, 10, 61-82.',
-      link: 'https://www.redalyc.org/pdf/706/70601005.pdf',
-    },
-    {
-      referencia:
-        'Pico Mora, L. J. (2017). Mi Palabra cuenta: Desarrollo de la competencia comunicativa oral en primera infancia. Universidad Distrital Francisco José de Caldas.',
+        'Gallardo, P., & Gavira, Fernández., J. (2010). El juego como recurso didáctico en educación física. Universidad de Cundinamarca, 6-84.',
       link:
-        'https://repository.udistrital.edu.co/server/api/core/bitstreams/c0da8c99-a5f2-41fb-9e51-b0932b95d8de/content',
+        'https://www.studocu.com/co/document/universidad-de-cundinamarca/educacion-comunitaria-y-pedagogia-social/el-juego-como-recurso-didactico-en-educacion-fisicapg-6-84/103653737',
     },
     {
       referencia:
-        'Gutiérrez Carvajal, M. J. (2021). Competencias ciudadanas en primera infancia: propuesta pedagógica para promover las competencias virtuales. Universidad Autónoma de Bucaramanga.',
+        'Navarro Estarreado, A. (2015). Revisión teórica sobre las metodologías utilizadas en la enseñanza durante la puesta en práctica de actividades físicas en el medio natural, 74-80.',
       link:
-        'https://repository.unab.edu.co/bitstream/handle/20.500.12749/14076/2021_Tesis_Mary_Jurley_Gutierrez_Carvajal.pdf?sequence=1',
-    },
-    {
-      referencia:
-        'Ministerio de Educación Nacional. MEN. (2014). Sentido de la educación inicial. En https://www.mineducacion.gov.co/. Panamericana Formas e Impresiones S.A.',
-      link:
-        'https://www.mineducacion.gov.co/1780/articles-341810_archivo_pdf_sentido_de_la_educacion.pdf',
+        'https://1library.co/article/escenarios-y-ambientes-de-la-educaci%C3%B3n-f%C3%ADsica.zwrg7o0y',
     },
   ],
   glosario: [
     {
+      termino: 'Accesibilidad',
+      significado:
+        'Principio que garantiza que todos los estudiantes, independientemente de sus capacidades, puedan participar en actividades educativas.',
+    },
+    {
       termino: 'Autonomía',
       significado:
-        'Capacidad del niño para realizar acciones y tomar decisiones de manera independiente, desarrollando confianza en sí mismo y en sus habilidades motrices.',
+        'Habilidad para tomar decisiones y desenvolverse en el entorno sin depender constantemente de ayuda externa.',
     },
     {
-      termino: 'Conciencia Corporal',
+      termino: 'Coordinación',
       significado:
-        'Reconocimiento del propio cuerpo, sus partes, límites y movimientos, que facilita el desarrollo de habilidades físicas y la construcción de la identidad.',
+        'Capacidad de realizar movimientos de manera sincronizada y eficiente, fundamental en la educación física.',
     },
     {
-      termino: 'Cooperación',
+      termino: 'Creatividad',
       significado:
-        'Habilidad para trabajar en conjunto con otros, compartir recursos y colaborar para alcanzar objetivos comunes dentro de un grupo social.',
+        'Facultad para generar nuevas ideas, soluciones y movimientos dentro de los espacios de aprendizaje.',
     },
     {
-      termino: 'Corporalidad',
+      termino: 'Equilibrio',
       significado:
-        'Integración del cuerpo como medio de expresión, interacción y aprendizaje en la formación integral de los niños y niñas.',
+        'Control del cuerpo en diferentes posiciones y situaciones, clave en la motricidad infantil y en actividades físicas.',
     },
     {
-      termino: 'Empatía',
+      termino: 'Exploración',
       significado:
-        'Capacidad de comprender y responder de manera adecuada a las emociones de los demás, fomentando relaciones sociales positivas y respetuosas.',
+        'Acción de investigar y probar nuevas formas de movimiento, descubriendo habilidades propias.',
     },
     {
-      termino: 'Espacio',
+      termino: 'Inclusión',
       significado:
-        'Entorno físico que los niños exploran, manipulan y representan mentalmente, desarrollando percepción espacial y habilidades de navegación.',
+        'Estrategia para asegurar que todos los estudiantes, sin importar sus diferencias, participen de manera equitativa en el aprendizaje.',
     },
     {
-      termino: 'Movimiento',
+      termino: 'Interacción',
       significado:
-        'Acción física que permite a los niños interactuar con su entorno, desarrollar habilidades motoras y expresar emociones y pensamientos.',
+        'Comunicación y colaboración entre los estudiantes, promoviendo el trabajo en equipo y el desarrollo social.',
     },
     {
-      termino: 'Normas',
+      termino: 'Motricidad',
       significado:
-        'Reglas sociales que los niños aprenden para convivir en armonía con los demás, comprendiendo valores como el respeto y la responsabilidad.',
+        'Conjunto de funciones nerviosas y musculares que permiten el movimiento del cuerpo.',
     },
     {
-      termino: 'Temporalidad',
+      termino: 'Percepción',
       significado:
-        'Noción básica del tiempo que los niños comienzan a desarrollar, diferenciando entre pasado, presente y futuro a través de rutinas y experiencias.',
-    },
-    {
-      termino: 'Vocabulario',
-      significado:
-        'Conjunto de palabras que los niños adquieren y enriquecen mediante el lenguaje y la comunicación, esencial para expresar ideas y emociones.',
+        'Proceso por el cual se interpretan estímulos del entorno, esencial para el desarrollo sensorial y motriz.',
     },
   ],
 }

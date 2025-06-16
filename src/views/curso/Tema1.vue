@@ -1,294 +1,395 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. El cuerpo y el movimiento en relación consigo mismo.'")
+  BannerInterno(:subTitulo="'1. Ejercicios de gimnasia.'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
-
+    
     .row.mb-4
       .col-4.d-none.d-xl-block
         img(src='@/assets/curso/unidad/img-2.png', alt='Texto que describa la imagen')
       .col-12.col-xl-8
+        p.mb-4 ¿Has considerado alguna vez la importancia de la gimnasia en la educación inicial? La niñez es un período clave para el desarrollo físico y mental. En este contexto, la gimnasia no solo se presenta como una actividad divertida, sino que se convierte en una herramienta esencial para el bienestar infantil, especialmente cuando se integra con un estilo de vida saludable y una dieta equilibrada.
         .d-flex.bg-azul-oscuro.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
           img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-3.svg', alt='Texto descriptivo de la imagen')
           .my-auto.p-4.p-xl-0
-            p.pe-xl-3.mb-0 En la primera infancia, <b>el cuerpo</b> no es simplemente un receptáculo físico, sino el <b>principal medio de interacción con el mundo y de autodescubrimiento</b>, como afirman Gutiérrez y Castillo (2014). El <b>movimiento</b>, intrínsecamente vinculado al cuerpo, actúa como herramienta esencial para explorar, comprender y construir la identidad. Esta relación "consigo mismo" implica la conciencia corporal, la exploración sensorial interna y el desarrollo de la autonomía motriz, fundamentales para un desarrollo integral. 
-        span Los estudios del desarrollo humano refuerzan esta visión <b>psicofísica</b> al reconocer la actividad motriz como pilar del crecimiento infantil. Teorías clásicas como la de Piaget destacan que el conocimiento se origina en la experiencia física, a través de interacciones intuitivas con los objetos, lo que lleva al desarrollo de formas de inteligencia mediante abstracción <i>reflexiva</i>. En la actualidad, la neurología respalda estos planteamientos al explicar cómo el cerebro integra información sensorial para producir respuestas adaptativas significativas (Gutiérrez y Castillo, 2014).
-
+            p.pe-xl-3.mb-0 Según <b>Fonseca González (2023)</b>, la gimnasia en esta etapa es fundamental para el desarrollo físico, cognitivo y social de los niños. A través de ejercicios adaptados a su edad, se estimulan la coordinación motriz, el equilibrio y la disciplina, elementos clave para su bienestar integral.
+    
+    .row.mb-4
+      .col-12.col-xl-8
+        p.mb-4 La educación inicial establece las bases para el crecimiento completo del niño. En este proceso, la gimnasia juega un papel crucial al fortalecer habilidades motoras, fomentar hábitos saludables y promover la interacción con el entorno. Los ejercicios no solo favorecen la coordinación y el equilibrio, sino que también facilitan la expresión corporal y la comprensión del propio cuerpo.
+        .bg-amarillo.p-4(data-aos='fade-up').mb-4
+          span Desde edades tempranas, el movimiento permite a los niños explorar nuevas sensaciones, reforzar la confianza en sí mismos y ganar autonomía. Las actividades gimnásticas, además de ser seguras y lúdicas, estimulan la creatividad y el aprendizaje a través del juego. También favorecen la socialización, ya que enseñan a compartir experiencias físicas, promoviendo el trabajo en equipo y el respeto mutuo. 
+        span Más allá de su dimensión deportiva, la gimnasia ofrece beneficios múltiples que impactan positivamente en el desarrollo integral infantil:
+      .col-4.d-none.d-xl-block
+        img(src='@/assets/curso/unidad/img-4.png', alt='Texto que describa la imagen')
+    
+    .row.bg-fondo-1.bg-full-width.py-4.mb-4
+      div.px-5
+    
+        .row.mb-4
+          .col-4.d-none.d-xl-block
+            img(src='@/assets/curso/unidad/img-5.png', alt='Texto que describa la imagen')
+          .col-12.col-xl-8
+            SlyderF(columnas='col-12 col-lg-6 py-4 px-3')
+              .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-6.svg', style='width: 80px')
+                p.text-bold.mb-4.text-center Físico
+                p.px-1.text-small.mb-0.text-center Mejora de la coordinación, flexibilidad, fuerza y control corporal.
+              .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-7.svg', style='width: 80px')
+                p.text-bold.mb-4.text-center Cognitivo
+                p.px-1.text-small.mb-0.text-center Favorece la concentración, la memoria y la capacidad de seguir instrucciones.
+              .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-8.svg', style='width: 80px')
+                p.text-bold.mb-4.text-center Socioemocional
+                p.px-1.text-small.mb-0.text-center Estimula la autoestima, la confianza, el respeto, la empatía y la cooperación.
+              .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-9.svg', style='width: 80px')
+                p.text-bold.mb-4.text-center Expresión y comunicación
+                p.px-1.text-small.mb-0.text-center Promueve la expresión corporal y la interpretación de emociones a través del movimiento.
+              .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-10.svg', style='width: 80px')
+                p.text-bold.mb-4.text-center Salud integral
+                p.px-1.text-small.mb-0.text-center Contribuye a liberar energía, reducir el estrés, mejorar el estado de ánimo y mantener una buena condición física general.
+    
+    .d-flex.bg-azul.bg-full-width.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
+      img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-11.svg', alt='Texto descriptivo de la imagen')
+      .my-auto.p-4.p-xl-0
+        p.px-4.mb-0 Incorporar la gimnasia en la educación inicial no implica únicamente ejecutar movimientos físicos, sino también fomentar valores y habilidades fundamentales que los niños conservarán a lo largo de su vida. Una enseñanza adaptada a cada etapa del desarrollo asegura un aprendizaje <b>progresivo</b>, <b>significativo</b> y <b>motivador</b>. (Fonseca González, 2023).
+    
     #t_1_1.titulo-segundo(data-aos="flip-up")
       div.d-flex
         span.me-3 1.1
-        h2 Conciencia Corporal
+        h2 ¿Qué son los ejercicios de gimnasia?
 
-    .row.mb-4
-      .col-12.col-xl-8
-        p.mb-4 La conciencia corporal es la capacidad de controlar el cuerpo y ejecutar movimientos coordinados y conscientes, permitiendo interactuar con el entorno de forma efectiva (Coaching, 2021). Esta habilidad es clave para el desarrollo motor, ya que forma el <b>esquema perceptivo-motriz</b>, base de la identidad personal.
-        .mb-4.bg-amarillo.p-4(data-aos='fade-up') 
-          span Gutiérrez y Castillo (2014) destacan la <b>integración sensorial</b>como el proceso cerebral inconsciente que organiza la información de los sentidos. Esta integración, mediada por el sistema nervioso central (SNC), permite generar <b>respuestas adaptativas</b>, esenciales para el aprendizaje y la conducta social. Incluso funciones como el lenguaje dependen de esta coordinación sensoriomotriz.
-        span Durante la infancia, el desarrollo del control corporal se inicia con sensaciones básicas: tacto, movimiento, vista y oído. Los bebés comienzan a formar su esquema corporal identificando sus partes con ayuda del entorno (Coaching, 2021). Este proceso se estructura en dos fases principales:
-      .col-4.d-none.d-xl-block
-        img(src='@/assets/curso/unidad/img-4.png', alt='Texto que describa la imagen')
+    .row.mb-4.mx-0
+      .d-none.d-xl-block.col-4.px-0
+        img.h-100(src='@/assets/curso/unidad/img-12.png', alt='Texto que describa la imagen')
+      .col-12.col-xl-8.d-flex.align-items-center.bg-gris.p-4(data-aos="fade-up")
+        p.mb-0 Los ejercicios de gimnasia son actividades físicas diseñadas para mejorar la <b>movilidad</b>, la <b>fuerza</b> y la <b>coordinación</b> de los niños desde los primeros años de vida. En la primera infancia —etapa que abarca desde el nacimiento hasta los cinco años—, estos ejercicios están especialmente orientados a <b>promover el desarrollo integral</b> mediante el movimiento, el juego y la exploración. <i>(Organización Mundial de la Salud [OMS], 2021).</i>
 
-    TabsC.mb-4
-      .tabs-content.border.px-4.p-md-5.py-3(titulo='Esquema corporal', :icon="require('@/assets/curso/unidad/img-5.svg')")
-        .row.bg-azul-claro
-          .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
-            figure
-              img(src='@/assets/curso/unidad/img-6.png', alt='Descripción de la imagen')
-          .col-md-12.col-lg-7.mb-4.mb-md-0
-            h4(data-aos='fade-up') Esquema corporal
-            p(data-aos='fade-up') Representación mental del cuerpo en reposo y movimiento. Se forma mediante el reconocimiento de las partes del cuerpo y su nombramiento.
-      .tabs-content.border.px-4.p-md-5.py-3(titulo='Imagen corporal', :icon="require('@/assets/curso/unidad/img-5.svg')")
-        .row.bg-azul-claro
-          .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
-            figure
-              img(src='@/assets/curso/unidad/img-7.png', alt='Descripción de la imagen')
-          .col-md-12.col-lg-7.mb-4.mb-md-0
-            h4(data-aos='fade-up') Imagen corporal
-            p(data-aos='fade-up') Capacidad de visualizar mentalmente el cuerpo y sus funciones. Se consolida con el juego, la exploración y la interacción social. (Duarte, Rodríguez, y Castro-Martínez, 2017)
+    h2 Características de los ejercicios de gimnasia en la primera infancia
 
-    .row.mb-4
-      .col-12.col-xl-8
-        p.mb-4 El descubrimiento del cuerpo como fuente de sensaciones permite construir el pensamiento infantil (Gil-Madrona et al., 2008; Vayer, 1973). Las actividades motrices, especialmente el juego, potencian el crecimiento emocional y permiten afrontar problemáticas como el sedentarismo o la obesidad infantil.
-        .bg-gris-oscuro.p-4(data-aos='fade-up')
-          span El desarrollo de la personalidad depende del <b>esquema corporal</b>, y se da por etapas, en interacción entre la función tónica (tono muscular) y la función motora (movimiento), que facilitan la comunicación, el conocimiento y la adaptación al entorno (Gutiérrez y Castillo, 2014).
-      .col-4.d-none.d-xl-block
-        img(src='@/assets/curso/unidad/img-8.png', alt='Texto que describa la imagen')
-
-    .row.bg-fondo-1.bg-full-width.py-4.mb-4
-      div.px-5.pb-md-3
-      
-        h2 Conexiones entre movimiento, cognición y lenguaje
-        p.mb-4 El desarrollo intelectual y del lenguaje está profundamente conectado con la experiencia motora. Según Gutiérrez y Castillo (2014), el conocimiento se construye mediante tres dimensiones:
-        .row.mb-4
-          .col-6.col-lg-4.mx-auto(data-aos='fade-up')
-            .d-flex.bg-amarillo-oscuro.p-3.h-100.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-              img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-9.svg', alt='Texto descriptivo de la imagen')
-              .my-auto.p-4.p-xl-0
-                p.pe-xl-3.mb-2.text-bold Psicofísico 
-                span Basado en la experiencia sensorial y física directa.
-          .col-6.col-lg-4(data-aos='fade-up')
-            .d-flex.bg-amarillo-oscuro.p-3.h-100.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-              img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-10.svg', alt='Texto descriptivo de la imagen')
-              .my-auto.p-4.p-xl-0
-                p.pe-xl-3.mb-2.text-bold Espacio-temporal
-                span Relacionado con la organización del cuerpo en el espacio y el tiempo.
-          .col-6.col-lg-4(data-aos='fade-up')
-            .d-flex.bg-amarillo-oscuro.p-3.h-100.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-              img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-11.svg', alt='Texto descriptivo de la imagen')
-              .my-auto.p-4.p-xl-0
-                p.pe-xl-3.mb-2.text-bold Lógico-formal
-                span Vinculado a la abstracción y el razonamiento, desarrollados posteriormente.
-        h2 Lateralidad y desarrollo neuromotor
-        p.mb-4 Cañizares Márquez y Carbonero Celis (2016) definen la <b>lateralidad</b> como la preferencia por un lado del cuerpo al realizar actividades. Esta se desarrolla entre los 2 y los 7 años y se consolida hacia los 5-7 años. La lateralidad influye en habilidades escolares como la lectura y la escritura.
-
-        .row.mb-4.justify-content-center
-          .col-10.col-md-6.col-lg-4.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
-            .custom-image-card.d-flex.flex-column.p-4.py-md-5
-              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-12.svg', style='width: 80px')
-              p.text-bold.mb-4.text-center Parte preferida del cuerpo
-              p.px-1.text-small.mb-0.text-center Diestros, zurdos, ambidiestros, lateralidad cruzada
-          .col-10.col-md-6.col-lg-4.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
-            .custom-image-card.d-flex.flex-column.p-4.py-md-5
-              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-13.svg', style='width: 80px')
-              p.text-bold.mb-4.text-center Uso de herramientas
-              p.px-1.text-small.mb-0.text-center Preferencia manual evidente o leve
-          .col-10.col-md-6.col-lg-4.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
-            .custom-image-card.d-flex.flex-column.p-4.py-md-5
-              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-14.svg', style='width: 80px')
-              p.text-bold.mb-4.text-center Grado de preferencia
-              p.px-1.text-small.mb-0.text-center Fuerte o débil
-          .col-10.col-md-6.col-lg-4.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
-            .custom-image-card.d-flex.flex-column.p-4.py-md-5
-              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-15.svg', style='width: 80px')
-              p.text-bold.mb-4.text-center Origen
-              p.px-1.text-small.mb-0.text-center Innato o por condicionantes (lesiones, adaptaciones)
-
-    .d-flex.bg-azul.bg-full-width.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-      img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-16.svg', alt='Texto descriptivo de la imagen')
-      .my-auto.p-4.p-xl-0
-        p.px-4.mb-0 El reconocimiento del lado dominante es clave para la orientación espacial. Padres y maestros deben observar y ofrecer oportunidades de exploración motriz para favorecer este desarrollo.
-
-    h2 Percepción y sentido del cuerpo
-
-    .row.bg-fondo-1.bg-full-width.pt-4.mb-4
-      div.px-5
-      
-        p.mb-4 La percepción, entendida como la interpretación cerebral de los estímulos sensoriales (Cañizares Márquez y Carbonero Celis, 2016), permite dar significado a la experiencia y regular la acción. Para ello, se emplean dos tipos de información:
-        
-        img(src='@/assets/curso/unidad/img-17.png', alt='Texto que describa la imagen').mb-4
-
-        p.mb-4 Durante la educación primaria, se consolidan las capacidades <b>perceptivo-motrices</b>, esenciales para interpretar el mundo y el propio cuerpo. El proceso perceptivo ocurre en dos etapas:
-
-        .row
-          .col-10.col-md-6.mx-auto.mb-4(data-aos='zoom-in')
-            .d-flex.bg-amarillo-oscuro.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-              img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-18.svg', alt='Texto descriptivo de la imagen')
-              .my-auto.p-4.p-xl-0
-                p.pe-xl-3.mb-2.text-bold Captación sensorial
-                span Los sentidos detectan estímulos del entorno.
-          .col-10.col-md-6.mx-auto(data-aos='zoom-in')
-            .d-flex.bg-amarillo-oscuro.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-              img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-19.svg', alt='Texto descriptivo de la imagen')
-              .my-auto.p-4.p-xl-0
-                p.pe-xl-3.mb-2.text-bold Procesamiento cerebral
-                span El cerebro interpreta estos datos, asignándoles un significado útil para la acción.
-    .row.bg-gris-oscuro.bg-full-width.py-4.mb-4
-      div.px-5.pb-md-3.py-4.d-flex
-        .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
-          h2.mb-4.pb-2.me-auto La Relevancia de la Percepción en el Movimiento
-          p.mb-5(data-aos="fade-up") Se invita a leer el documento La Relevancia de la Percepción en el Movimiento, donde se analiza cómo la percepción sensorial influye directamente en la ejecución de los movimientos durante la primera infancia.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/.pdf')" target="_blank")
-            img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
-            p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> La Relevancia de la Percepción en el Movimiento
-        .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")
-          img.h-100(src='@/assets/curso/unidad/img-20.png', alt='Texto que describa la imagen')
-
-    #t_1_2.titulo-segundo(data-aos="flip-up")
-      div.d-flex
-        span.me-3 1.2
-        h2 Autopercepción
-
-    .row.mb-4
-      .col-12.col-xl-9
-        p.mb-4 La <b>autopercepción</b> en la primera infancia, según Campo Ternera, (2014), es un proceso dinámico mediante el cual los niños comienzan a verse y entenderse a sí mismos. Este proceso es clave en la construcción de la identidad, la confianza en sí mismos y el conocimiento de sus propias capacidades. La autopercepción se alimenta principalmente de las interacciones con el entorno y figuras significativas como padres o cuidadores.
-      .col-3.d-none.d-xl-block
-        img(src='@/assets/curso/unidad/img-21.png', alt='Texto que describa la imagen')
+    p.mb-4 Según la <b>Organización Mundial de la Salud (2021)</b>, estos ejercicios poseen una serie de características clave que los hacen adecuados para el desarrollo infantil:
 
     .row.position-relative.mb-5.py-4.bg-fondo-slider.bg-full-width
       div.px-4.px-md-5.py-md-3
         SlyderA(tipo="b").bg-white
           .row.p-4.px-md-5.py-lg-5.justify-content-between
             .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-              p.text-bold Reconocimiento del "Yo" corporal
-              p Identificación del cuerpo como entidad propia; se evidencia cuando los niños se refieren a sí mismos por su nombre.
+              p.text-bold Adaptados a la edad
+              p Las actividades físicas deben ajustarse a las capacidades motoras y cognitivas propias de cada etapa del desarrollo. Ejercicios distintos para cada edad.
+            .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+              figure
+                img(src='@/assets/curso/unidad/img-13.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+              p.text-bold Basados en el juego
+              p El aprendizaje lúdico es esencial. Actividades como carreras, circuitos y juegos con pelotas hacen del movimiento una experiencia atractiva y espontánea.
+            .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+              figure
+                img(src='@/assets/curso/unidad/img-14.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+              p.text-bold Énfasis en habilidades básicas
+              p Se promueven habilidades motoras fundamentales como caminar, correr, saltar, lanzar o mantener el equilibrio, fundamentales para el desarrollo físico.
+            .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+              figure
+                img(src='@/assets/curso/unidad/img-15.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+              p.text-bold Exploración del movimiento 
+              p Se anima a los niños a experimentar libremente diferentes formas de moverse (trepar, girar, balancearse), fortaleciendo la conciencia corporal.
+            .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+              figure
+                img(src='@/assets/curso/unidad/img-16.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+              p.text-bold Desarrollo multisensorial
+              p Se incorporan estímulos sensoriales variados (texturas, sonidos, colores) que favorecen la percepción y el desarrollo sensorial.
+            .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+              figure
+                img(src='@/assets/curso/unidad/img-17.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+              p.text-bold Interacción social
+              p Las actividades grupales estimulan la comunicación, cooperación y habilidades sociales mediante el trabajo en equipo o ejercicios en pareja.
+            .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+              figure
+                img(src='@/assets/curso/unidad/img-18.png', alt='Texto que describa la imagen')
+
+    p.mb-4 Estos ejercicios incluyen <b>movimientos básicos</b> como saltos, giros, desplazamientos y actividades de equilibrio, los cuales —como se ha indicado— están adaptados para fomentar un desarrollo armónico y seguro. A continuación, se describen los factores que intervienen en estas prácticas desde una perspectiva del desarrollo físico, cognitivo, social y del bienestar integral, según lo expuesto por Fonseca González (2023) en su <i>Manual de gimnasia</i>.
+
+    .row.mb-4
+      .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
+        img(src='@/assets/curso/unidad/img-19.png', alt='Texto que describa la imagen')
+      .col-12.col-lg-7.col-xl-8
+        AcordionA(tipo="b")
+          .div(titulo="Desarrollo Físico")
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 <i>Coordinación motriz:</i> actividades como gatear, saltar, lanzar y atrapar refinan la coordinación ojo-mano y la coordinación gruesa, base para habilidades futuras como escribir o practicar deportes.
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 <i>Equilibrio:</i> mejora el equilibrio estático y dinámico, aumentando la seguridad y reduciendo caídas.
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 <i>Fuerza y flexibilidad:</i> los movimientos controlados y estiramientos fortalecen la musculatura y amplían el rango de movimiento, previniendo lesiones.
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 <i>Conciencia corporal (propiocepción):</i> ayuda a percibir el cuerpo en el espacio, clave para el control del movimiento.
+          .div(titulo="Desarrollo Cognitivo")
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 <i>Planificación y secuenciación:</i> seguir secuencias de movimientos fortalece habilidades organizativas y de ejecución.
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 <i>Atención y concentración:</i> requiere enfocarse en instrucciones y ejecución precisa, mejorando estas capacidades.
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 <i>Resolución de problemas:</i> enfrentar obstáculos físicos promueve la creatividad y la solución de problemas.
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 <i>Memoria:</i> memorizar rutinas y secuencias entrena la memoria operativa.
+          .div(titulo="Desarrollo Social")
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 <i>Disciplina:</i> introduce normas, respeto por los turnos y esfuerzo personal.
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 <i>Trabajo en equipo y cooperación:</i> fomenta la colaboración y el apoyo mutuo en actividades grupales.
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 <i>Comunicación:</i> mejora la interacción con compañeros e instructores.
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 <i>Confianza y autoestima:</i> superar retos físicos fortalece la seguridad en uno mismo.
+          .div(titulo="Bienestar Integral")
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 <i>Liberación de energía:</i> canaliza la energía acumulada, reduciendo el estrés y la ansiedad.
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 <i>Hábitos saludables:</i> estimula la práctica de ejercicio desde temprana edad, promoviendo un estilo de vida activo.
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 <i>Prevención de problemas de salud:</i> favorece un peso corporal adecuado y reduce riesgos futuros.
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 <i>Diversión y motivación:</i> es una actividad lúdica que impulsa la participación constante.
+
+    #t_1_2.titulo-segundo(data-aos="flip-up")
+      div.d-flex
+        span.me-3 1.2
+        h2 Consideraciones para la práctica y enseñanza según la edad
+
+    p.mb-4 La enseñanza de la gimnasia debe adaptarse a las <b>capacidades y necesidades</b> de cada grupo etario, según las recomendaciones de <b>UNICEF (2019)</b>. A continuación, se describen las prácticas sugeridas para tres rangos de edad:
+
+    .row.position-relative.mb-5.py-4.bg-fondo-slider.bg-full-width
+      div.px-4.px-md-5.py-md-3
+        SlyderA(tipo="b").bg-white
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+              p.text-bold 6 meses a 2 años
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 <b>Estimulación temprana:</b> fundamental para el desarrollo motor inicial. 
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 <b>Gateo:</b> fomentar el desplazamiento sobre manos y rodillas fortalece los músculos esenciales para la marcha. 
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 <b>Ejercicios suaves para cuello y espalda:</b> levantar la cabeza mientras están boca abajo fortalece la musculatura cervical y dorsal.
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 <b>Exploración de diferentes texturas:</b> permitir el contacto con superficies variadas estimula el desarrollo sensorial y mejora la coordinación motora.
+            .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+              figure
+                img(src='@/assets/curso/unidad/img-20.png', alt='Texto que describa la imagen') 
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+              p.text-bold 2 a 4 años
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 <b>Ejercicios más estructurados:</b> adecuados a medida que se incrementa el control corporal. 
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 <b>Caminar y correr en diferentes direcciones:</b> mejora la orientación espacial y la agilidad. 
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 <b>Saltar con ambos pies:</b> favorece el desarrollo del equilibrio y la fuerza en las piernas.
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 <b>Lanzar y atrapar pelotas grandes:</b> estimula la coordinación ojo-mano y la motricidad fina. 
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 <b>Subir y bajar escaleras con apoyo:</b> fortalece las piernas y fomenta la confianza en el movimiento. 
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 <b>Bailar al ritmo de la música:</b> estimula la expresión corporal, la creatividad y la percepción rítmica.
+            .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+              figure
+                img(src='@/assets/curso/unidad/img-21.png', alt='Texto que describa la imagen') 
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+              p.text-bold 4 a 6 años
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 <b>Gimnasia artística básica:</b> ideal para fomentar autonomía y creatividad en el movimiento.
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 <b>Saltar en un pie y luego en el otro:</b> mejora el equilibrio y la coordinación interhemisférica. 
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 <b>Brincar la cuerda:</b> fortalece la resistencia cardiovascular y la agilidad general. 
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 <b>Circuitos con obstáculos sencillos:</b> incentivan la resolución de desafíos motrices y la planificación de movimientos.
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 <b>Ejercicios de equilibrio:</b> caminar sobre una línea o mantenerse en un pie fortalece el control postural. 
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 <b>Actividades de coordinación ojo-mano:</b> como encestar pelotas o ensartar cuentas, mejoran la precisión motriz.
             .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
               figure
                 img(src='@/assets/curso/unidad/img-22.png', alt='Texto que describa la imagen') 
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-              p.text-bold Identificación con otros
-              p Interiorización de roles, valores culturales y familiares a través de la imitación.
-            .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
-              figure
-                img(src='@/assets/curso/unidad/img-23.png', alt='Texto que describa la imagen') 
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-              p.text-bold Narrativa del "Yo"
-              p Desarrollo de relatos personales simples sobre sus vivencias, fundamentales para estructurar una identidad coherente.
-            .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
-              figure
-                img(src='@/assets/curso/unidad/img-24.png', alt='Texto que describa la imagen') 
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-              p.text-bold Conciencia de la individualidad
-              p Reconocimiento de pensamientos, deseos y sentimientos propios; expresiones como rabietas reflejan esta conciencia emergente.
-            .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
-              figure
-                img(src='@/assets/curso/unidad/img-25.png', alt='Texto que describa la imagen') 
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-              p.text-bold Comparación social temprana
-              p Comparaciones rudimentarias en habilidades o posesiones con otros niños.
-            .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
-              figure
-                img(src='@/assets/curso/unidad/img-26.png', alt='Texto que describa la imagen') 
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-              p.text-bold Reconocimiento de atributos personales
-              p A través del entorno, los niños reciben etiquetas ("tímido", "cariñoso") que construyen su autoconcepto.
-            .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
-              figure
-                img(src='@/assets/curso/unidad/img-27.png', alt='Texto que describa la imagen') 
 
-    h2 Confianza en sí mismos y conocimiento de las propias capacidades
-    p.mb-4 Según Campo Ternera, (2014),  la <b>confianza en sí mismo</b> se fortalece a partir del logro de tareas, el refuerzo positivo y un ambiente emocionalmente seguro. La autopercepción también implica el reconocimiento de lo que se puede o no se puede hacer.
+    h2 Propuesta de rutina de gimnasia infantil
+    p.mb-4 Según el portal <i>Decorexpro</i> (2024), se sugiere una <b>estructura secuencial</b> para las clases de gimnasia infantil:
 
-    .row.bg-fondo-2.bg-full-width.py-4.mb-4
-      div.px-5.pb-md-3
+    TabsC.mb-4
+      .tabs-content.border.px-4.p-md-5.py-3(titulo='Calentamiento', :icon="require('@/assets/curso/unidad/img-32.svg')")
         .row
-          .col-4.d-none.d-xl-block
-            img(src='@/assets/curso/unidad/img-28.png', alt='Texto que describa la imagen')
-          .col-12.col-xl-8
-            SlyderF(columnas='col-12 col-lg-6 py-4 px-3')
-              .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-29.svg', style='width: 80px')
-                p.text-bold.mb-4.text-center Sentimiento de competencia
-                p.px-1.text-small.mb-0.text-center Se desarrolla cuando los niños logran tareas por sí mismos, como abotonarse o resolver un rompecabezas.
-              .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-30.svg', style='width: 80px')
-                p.text-bold.mb-4.text-center Apoyo del entorno
-                p.px-1.text-small.mb-0.text-center Celebrar esfuerzos y brindar aliento fortalece la autoestima; la crítica o sobreprotección pueden dañarla.
-              .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-31.svg', style='width: 80px')
-                p.text-bold.mb-4.text-center Tolerancia a la frustración
-                p.px-1.text-small.mb-0.text-center El manejo de la frustración se cultiva junto con la confianza.
-              .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-32.svg', style='width: 80px')
-                p.text-bold.mb-4.text-center Exploración motriz y sensorial
-                p.px-1.text-small.mb-0.text-center A través del juego, los niños descubren habilidades físicas y sensoriales.
-              .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-33.svg', style='width: 80px')
-                p.text-bold.mb-4.text-center Reconocimiento de fortalezas y debilidades
-                p.px-1.text-small.mb-0.text-center Permite establecer metas realistas y adaptarse mejor a los desafíos.
-              .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-34.svg', style='width: 80px')
-                p.text-bold.mb-4.text-center Influencia del entorno
-                p.px-1.text-small.mb-0.text-center Las oportunidades y expectativas del adulto influyen directamente en la percepción de capacidades.
-    
-    h2 Autoconcepto, autoestima y desarrollo de la personalidad
-    p.mb-4 Según Quintero y Montenegro (2015), la <b>personalidad</b> se construye a partir de una serie de factores interrelacionados que se desarrollan en los primeros años de vida, con un fuerte componente socioafectivo.
+          .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
+            figure
+              img(src='@/assets/curso/unidad/img-23.png', alt='Descripción de la imagen')
+          .col-md-12.col-lg-7.mb-4.mb-md-0
+            h4(data-aos='fade-up') Calentamiento 
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 Debe ser breve (<b>máximo 3 minutos</b>). 
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 Incluye <b>caminar y correr alternadamente.</b> 
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 Añadir elementos sorpresa (música, objetos). 
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 Sirve para <b>activar gradualmente el cuerpo</b>.
+      .tabs-content.border.px-4.p-md-5.py-3(titulo='Parte principal', :icon="require('@/assets/curso/unidad/img-32.svg')")
+        .row
+          .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
+            figure
+              img(src='@/assets/curso/unidad/img-24.png', alt='Descripción de la imagen')
+          .col-md-12.col-lg-7.mb-4.mb-md-0
+            h4(data-aos='fade-up') Parte principal
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 Ejercicios que activen la musculatura y articulaciones. 
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 Promueven una <b>postura adecuada</b> y el <b>desarrollo corporal armonioso</b>.
+      .tabs-content.border.px-4.p-md-5.py-3(titulo='Enfriamiento final', :icon="require('@/assets/curso/unidad/img-32.svg')")
+        .row
+          .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
+            figure
+              img(src='@/assets/curso/unidad/img-25.png', alt='Descripción de la imagen')
+          .col-md-12.col-lg-7.mb-4.mb-md-0
+            h4(data-aos='fade-up') Enfriamiento final
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 Disminuir progresivamente la intensidad. 
 
-    ImagenInfografica.color-secundario.mb-4.bg-white
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/unidad/img-35.png', alt='Descripción de la imagen')
-      .tarjeta.bg-white.p-4(x='17.5%' y='20%' numero='+')
-        .h5.mb-2 Autoconcepto
-        p Imagen mental que el niño tiene de sí mismo, basada en rasgos concretos observables. Se enriquece con la retroalimentación del entorno.
-      .tarjeta.bg-white.p-4(x='71.6%' y='14%' numero='+')
-        .h5.mb-2 Autonomía
-        p Capacidad de tomar decisiones y realizar tareas por cuenta propia. Se desarrolla con oportunidades adecuadas según la edad.
-      .tarjeta.bg-white.p-4(x='82.5%' y='38.4%' numero='+')
-        .h5.mb-2 Autorregulación
-        p Habilidad para gestionar emociones, impulsos y conductas. Se evidencia en la capacidad de esperar turnos o seguir instrucciones.
-      .tarjeta.bg-white.p-4(x='78%' y='54.2%' numero='+')
-        .h5.mb-2 Empatía
-        p Capacidad de comprender y compartir emociones ajenas. Se desarrolla gracias a interacciones sociales positivas y modelado adulto.
-      .tarjeta.bg-white.p-4(x='17.5%' y='62%' numero='+')
-        .h5.mb-2 Autoestima
-        p Valoración afectiva que el niño hace de sí mismo. Depende de la aceptación, afecto y reconocimiento del entorno cercano.
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 Incluir <b>caminatas suaves</b> y <b>estiramientos</b> para regresar a un estado de calma.
+
+    p.mb-4 Ejercicios recomendados para el calentamiento: 
     
-    h2 Desarrollo cognitivo y corporal: una conexión integral
-    p.mb-4 Duarte, Rodríguez y Castro-Martínez (2017), citando a Lení y Wey (2015), sostienen que el desarrollo corporal y del movimiento es <b>fundamental para el desarrollo cognitivo infantil</b>. Los retrasos motores pueden afectar negativamente funciones cognitivas, e incluso derivar en discapacidades intelectuales.
+    .row.bg-amarillo.bg-full-width.py-4.mb-4
+      div.px-5
+
+        .row
+          .col-12.col-xl-8.d-flex
+            .my-auto
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 Caminata en el lugar con incremento gradual del ritmo.
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 Correr en círculo y alrededor de obstáculos (puede incorporarse el juego "Atrapa").
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 Caminata sobre puntas, talones, bordes internos y externos de los pies (beneficioso para pies planos).
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 Paradas repentinas ante estímulos (como un aplauso o el silencio de la música); se puede usar el juego "Escondite".
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 Caminata con reto manual: levantar brazos, extender a los lados y bajar tras una señal.
+          .col-4.d-none.d-xl-block
+            img(src='@/assets/curso/unidad/img-26.png', alt='Texto que describa la imagen')
+
+    h2 Parte lúdica de la rutina
+    p.mb-4 Después del calentamiento, es fundamental incluir una <b>fase lúdica</b> en la clase de gimnasia. Esta etapa no solo mantiene la motivación y el interés de los niños, sino que también estimula la imaginación, la coordinación y la socialización a través del juego. A continuación, se describen algunos ejercicios sugeridos, recomendados por <i>Decorexpro</i> (2024):
 
     .row.mb-4
+      .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
+        img(src='@/assets/curso/unidad/img-27.png', alt='Texto que describa la imagen')
       .col-12.col-lg-7.col-xl-8
         AcordionA(tipo="b")
-          .div(titulo="Movimiento mejora funciones cognitivas")
-            p Atención, memoria, concentración. El movimiento estimula habilidades de planificación y orientación.
-          .div(titulo="Exploración corporal cotidiana")
-            p Favorece el aprendizaje por ensayo y error. Mejora el control postural y la coordinación.
-          .div(titulo="Conceptos espaciales adquiridos corporalmente")
-            p A través del movimiento se aprenden conceptos como “arriba”, “abajo”, “cerca”.
-          .div(titulo="Coordinación y ritmo")
-            p Habilidades necesarias para tareas físicas que también se reflejan en el aprendizaje cognitivo.
-      .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
-        img(src='@/assets/curso/unidad/img-36.png', alt='Texto que describa la imagen')
+          .div(titulo="¡Hola a todos!")
+            p Posición inicial: De pie, piernas separadas y manos en la espalda. <br>Al contar hasta 1: Inhalar e inclinarse hacia adelante. <br>Al contar hasta 2: Regresar a la posición inicial. 
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 Estimula la respiración controlada y la movilidad del tronco.
 
-    h2 Cuerpo, salud y hábitos
+          .div(titulo="¿Dónde están mis amigos?")
+            p Posición inicial: Piernas separadas y manos en la cintura. <br>Al contar 1: Girar el cuerpo hacia un lado. <br>Al contar 2: Girar hacia el otro lado. <br>Se puede incluir movimiento de manos hacia la cara, como si se observara a alguien. 
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 Favorece la rotación del tronco y la conciencia espacial.
 
-    .row.mb-5
-      .col-4.d-none.d-xl-block
-        img(src='@/assets/curso/unidad/img-37.png', alt='Texto que describa la imagen')
-      .col-12.col-xl-8
-        p.mb-4 Finalmente, el cuerpo en la infancia no solo es un vehículo de identidad y cognición, sino también de <b>bienestar físico y mental</b>. El cuidado del cuerpo a través de la higiene, la alimentación y el descanso son pilares esenciales del desarrollo integral.
-        .bg-amarillo.p-4(data-aos='fade-up')
-          div.d-flex
-            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
-            p <b>Hábitos saludables. </b> Inculcan responsabilidad sobre el cuerpo y promueven un crecimiento equilibrado.
-          div.d-flex
-            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
-            p <b>Autocuidado. </b> Enseña a los niños a proteger y mantener su bienestar físico. Se fomenta desde el ejemplo adulto.
-    
+          .div(titulo="Crecemos como hongos")
+            p Posición inicial: Pies separados y brazos hacia abajo. <br>1: Levantar brazos hacia los lados. <br>2: Estirarse hacia arriba en puntas de pies. <br>3: Caer suavemente sobre los talones. <br>4: Volver a la posición inicial. 
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 Mejora el equilibrio, la coordinación y la fuerza en piernas.
+
+          .div(titulo="¡Tomemos el sol!")
+            p Posición inicial: Acostado boca arriba. <br>Girar lentamente hacia el vientre en una dirección y luego hacia la otra. 
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 Estimula la movilidad general y el reconocimiento corporal.
+
+          .div(titulo="Salto de conejito")
+            p Posición inicial: Piernas juntas, brazos al frente. <br>Realizar saltos en el lugar y alrededor de un objeto (ej. un árbol o arbusto). 
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 Promueve la agilidad, la fuerza en piernas y la orientación espacial.
+
+
+    .row.bg-fondo-1.bg-full-width.py-4.mb-4
+      div.px-5
+
+        h2 Enfriamiento y estiramientos
+        p.mb-4 Para finalizar la sesión, se recomienda una fase de <b>enfriamiento</b>, que incluye caminatas suaves y ejercicios de respiración para <b>normalizar el pulso</b> y relajar el cuerpo. Si el tiempo lo permite, se puede realizar un conjunto de estiramientos sencillos:
+        .row.mb-4 
+          .col-10.col-md-6.mx-auto
+            .d-flex.bg-amarillo-oscuro.px-3.py-1.flex-column.flex-md-row.mb-4(data-aos='fade-up')
+              img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-28.svg', alt='Texto descriptivo de la imagen')
+              .my-auto.p-4.p-xl-0
+                p.pe-xl-3.mb-3.text-bold Desde posición sentada 
+                span Inclinarse hacia adelante con piernas rectas y separadas.
+          .col-10.col-md-6.mx-auto
+            .d-flex.bg-amarillo-oscuro.px-3.py-1.flex-column.flex-md-row.mb-4(data-aos='fade-up')
+              img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-29.svg', alt='Texto descriptivo de la imagen')
+              .my-auto.p-4.p-xl-0
+                p.pe-xl-3.mb-3.text-bold Desde posición de pie
+                span Inclinarse hacia adelante con piernas rectas y ampliamente extendidas.
+        span Todos los movimientos deben ser <b>suaves y lentos</b>, con el objetivo de evitar lesiones y lograr una transición tranquila hacia el estado de reposo. (<i>Decorexpro</i>, 2024). Como se ha observado, la <b>gimnasia en la educación inicial</b> constituye una herramienta clave para el <b>desarrollo integral</b> de los niños. Su práctica debe estar cuidadosamente adaptada a cada etapa del crecimiento, integrando aspectos <b>motrices, lúdicos y afectivos</b>. Un enfoque seguro y progresivo garantiza que el aprendizaje se dé en un entorno que respete tanto las capacidades como las necesidades propias de la infancia.
+
     .bg-full-width.border-top-9-azul
       .px-5.pt-5.pb-0
         h2 Material complementario
@@ -296,20 +397,23 @@
           .col-12.col-md-6.col-lg-8
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/194803?page=29") González, L. E. & Gómez, J. (1985). La educación física en la primera infancia
-            
-            p.d-flex.my-4
-              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=6EBKNkUo0ho") [Vídeo] Identidad de género en la infancia
-            
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/177890?page=27") Aznar Oro, P. Morte Remacha, J. L. & Serrano Ferruz, R. (2021). La educación física en la educación infantil de 3 a 6 años
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/67082?page=1") Porstein, A. M. (2016). Cuerpo, juego y movimiento en el Nivel Inicial
-          
+              a.text-small.text-primary(target="_blank", href="https://www.ninoanino.org/wp-content/uploads/2023/07/Manual-de-gimnasia-con-el-nino_compressed.pdf") Fonseca González, I. (2023). Manual de gimnasia con el niño
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/") Elibro
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.ninoanino.org/") Niño a Niño
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=IwKvRMW6KPU") DeporteUNAM. (2020). Rutina de gimnasia para niños (video 5) [Vídeo]
           .col-12.col-md-6.col-lg-3
             figure
               img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
-    
+
     p
 
 

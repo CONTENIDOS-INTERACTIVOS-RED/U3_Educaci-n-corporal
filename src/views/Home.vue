@@ -22,7 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 La Unidad 1 “Corporalidad y Formación Integral” aborda la importancia del cuerpo y el movimiento en el desarrollo integral infantil. Explora tres dimensiones clave: la relación del cuerpo consigo mismo, hacia los demás y con el entorno. Destaca la conciencia corporal, la autopercepción, las competencias sociales, emocionales, comunicativas y ciudadanas. El movimiento se entiende como un medio vital de exploración, aprendizaje y construcción de identidad. Se promueve la creación de ambientes educativos que integren cuerpo, emoción y pensamiento, fomentando la autonomía, empatía, autoestima y habilidades sociales desde la primera infancia.
+              p.descripcion.mb-4 La unidad 3 sobre Educación Corporal se enfoca en la importancia de la educación física en la infancia, destacando la gimnasia como herramienta para el desarrollo motriz, cognitivo y social. Se abordan ejercicios adaptados por edad, rutinas prácticas y ambientes educativos que favorecen la actividad física. Se enfatiza el juego como recurso didáctico, la inclusión, y la necesidad de espacios seguros y estimulantes. Además, se presentan metodologías activas y criterios para diseñar clases estructuradas, buscando promover la exploración, autonomía y disfrute del movimiento desde una edad temprana.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

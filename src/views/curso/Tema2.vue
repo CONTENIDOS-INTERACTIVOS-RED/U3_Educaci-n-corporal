@@ -1,401 +1,355 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'2. El cuerpo y el movimiento en relación hacia los demás.'")
+    BannerInterno(:subTitulo="'2. Creación de ambientes educativos para realizar actividades de educación física.'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
   
-      .row.mb-4.mx-0
-        .d-none.d-xl-block.col-4.px-0
-          img.h-100(src='@/assets/curso/unidad/img-38.png', alt='Texto que describa la imagen')
-        .col-12.col-xl-8.d-flex.align-items-center.bg-azul-oscuro.p-4(data-aos="fade-up")
-          p.mb-0 Durante la primera infancia (0 a 6 años), el <b>movimiento</b> no es simplemente una expresión física, sino una vía primordial a través de la cual los niños se <b>relacionan con su entorno y con los demás</b>. Como afirman Duarte, Rodríguez y Castro-Martínez (2017), esta dimensión del desarrollo corporal implica un conjunto de <b>competencias sociales y comunicativas</b> que fortalecen la capacidad de los niños para adaptarse socialmente, construir vínculos afectivos y desarrollar una comunicación efectiva.
-
-      h2 Movimiento como forma de conexión
 
       .row.mb-4
         .col-12.col-xl-8
-          p.mb-4 Gutiérrez y Castillo (2014) destacan que, según estudios recientes en neurología, el cuerpo en movimiento se convierte en el <b>lenguaje primario</b> del niño para interactuar con el mundo. Cada acción motriz —desde gatear hasta explorar objetos— es una forma de experimentar, conocer y comunicar. Este tipo de interacción corporal activa:
-          .bg-azul.p-4(data-aos='fade-up')
-            div.d-flex
-              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
-              p <b>El desarrollo emocional</b>, al permitir la expresión no verbal de sentimientos.
-            div.d-flex
-              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
-              p <b>La regulación emocional</b>, al construir confianza a través del control del propio cuerpo.
-            div.d-flex
-              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
-              p <b>La construcción de una autoimagen positiva</b>, al tener éxito en la exploración del entorno.
-            span Esta relación psicofísica entre cuerpo y mente es un principio clave en neurociencia: el niño <b>conoce, dialoga e investiga</b> mediante el cuerpo. El movimiento es, entonces, una experiencia vital, no solo física, sino cognitiva, emocional y social. 
+          .d-flex.bg-amarillo.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
+            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-30.svg', alt='Texto descriptivo de la imagen')
+            .my-auto.p-4.p-xl-0
+              p.pe-xl-3.mb-0 Para comprender qué son los <b>ambientes de aprendizaje y espacios</b> en el contexto de la Educación Física, es esencial diferenciar entre los términos espacio y ambiente, los cuales suelen emplearse como sinónimos pero no lo son.
+          span Según Ríos Ferreras (2014), el término <i>espacio</i>, en su cuarta acepción según la RAE, se define como “capacidad de terreno, sitio o lugar”. En cambio, <i>ambiente</i>, en su tercera acepción, se refiere a “condiciones o circunstancias físicas, sociales, económicas, etc., de un lugar, de una reunión, de una colectividad o de una época”.
         .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-39.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/unidad/img-31.png', alt='Texto que describa la imagen')
 
-      h2 Competencias del cuerpo y el movimiento en relación hacia los demás
-      p.mb-4 A continuación, se resumen las principales <b>competencias</b> vinculadas a esta dimensión del desarrollo infantil, según Duarte, Rodríguez y Castro-Martínez (2017):
+      TabsC.mb-4
+        .tabs-content.border.px-4.p-md-5.py-3(titulo='Espacio', :icon="require('@/assets/curso/unidad/img-32.svg')")
+          .row
+            .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
+              figure
+                img(src='@/assets/curso/unidad/img-33.png', alt='Descripción de la imagen')
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              h4(data-aos='fade-up') Espacio
+              p(data-aos='fade-up') Se entiende como el entorno físico. En Educación Física, incluye los objetos, los materiales deportivos, el mobiliario y la decoración de las instalaciones. Es el soporte tangible donde se desarrollan las actividades.
+        .tabs-content.border.px-4.p-md-5.py-3(titulo='Ambiente', :icon="require('@/assets/curso/unidad/img-32.svg')")
+          .row
+            .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
+              figure
+                img(src='@/assets/curso/unidad/img-34.png', alt='Descripción de la imagen')
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              h4(data-aos='fade-up') Ambiente
+              p(data-aos='fade-up') Abarca el espacio físico más las relaciones que se generan en él. Incluye los afectos y las interacciones entre estudiantes, así como entre estudiantes y docentes. Es un constructo más amplio y complejo, cargado de significados y dinámicas sociales.
 
       .row.mb-4
-        .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
-          img(src='@/assets/curso/unidad/img-40.png', alt='Texto que describa la imagen')
+        .col-12.col-xl-8
+          p.mb-4 Ambos elementos influyen de manera determinante en el proceso educativo. Laorden y Pérez (2002), citados por Ríos Ferreras (2014), señalan que <i>“el espacio se convierte en un factor didáctico que ayuda a definir la situación de enseñanza-aprendizaje y permite crear un ambiente estimulante para el desarrollo de todas las capacidades del alumnado, así como favorecer la autonomía y motivación del equipo de profesores”</i>.
+          .bg-azul-oscuro.p-4(data-aos='fade-up').mb-4
+            span Loughlin y Suina (1987), también citados por Ríos Ferreras (2014), aportan una visión ampliada al afirmar que <i>“el ambiente es mucho más que un edificio o una disposición del mobiliario. La visión conceptual del ambiente es mucho más amplia. Descansa en un entendimiento de las relaciones entre entornos físicos y conducta, entre disposiciones ambientales y aprendizaje”.</i>
+          span Este entorno o ambiente no es un elemento fijo, sino que <b>puede y debe ser modelado, construido y manipulado</b>. Es fundamental que el docente lo gestione adecuadamente para ofrecer un entorno rico y variado que fomente la actividad del alumnado y aumente su participación.
+        .col-4.d-none.d-xl-block
+          img(src='@/assets/curso/unidad/img-35.png', alt='Texto que describa la imagen')
+
+      h2 Ambientes de aprendizaje en Educación Física
+      .row.mb-4
+        
+        .col-4.d-none.d-xl-block
+          img(src='@/assets/curso/unidad/img-36.png', alt='Texto que describa la imagen')
+        .col-12.col-xl-8
+          p.mb-4 Un entorno educativo que influye positivamente en la conducta y el aprendizaje se denomina <b>ambiente de aprendizaje</b>. Blández (1995), citado por Ríos Ferreras (2014), lo define como <i>“un espacio transformado que invita a ser utilizado para un fin concreto”</i>. Esto requiere seleccionar y combinar materiales adecuados para cada contenido y organizarlos de manera que <b>fomenten su uso y provoquen la participación</b>.
+          .bg-gris.p-4(data-aos='fade-up')
+            span El objetivo es construir un entorno que <b>invite al aprendizaje y lo motive</b>, donde los estudiantes puedan <b>asumir un rol protagónico</b> y ser constructores activos de su conocimiento. El rol del docente en este marco no es el de transmitir información de manera frontal, sino el de facilitar y organizar el aprendizaje desde una posición secundaria.
+
+      h2 Enfoque metodológico en los espacios de Educación Física
+
+      .row.mb-4
+        .col-12.col-xl-8
+          .bg-amarillo.p-4(data-aos='fade-up').mb-4
+            span Los espacios utilizados en Educación Física comparten los principios de los ambientes de aprendizaje, pero con una <b>metodología particular</b>, orientada a que <i>“los alumnos descubran sus propios aprendizajes y que estos espacios sean un medio eficaz para aprender libremente”</i> (Ríos Ferreras, 2014).
+          span Este enfoque está alineado con las ideas de Delgado Noguera (2000), citado por Ríos Ferreras (2014), quien defiende que se debe <i>“dar más participación activa al alumno para mejorar la enseñanza”</i>. Igualmente, coincide con la propuesta de Vaca Escribano (1996), también citado por Ríos, quien plantea <b>tres aspectos fundamentales para la enseñanza de la Educación Física</b>:
+        .col-4.d-none.d-xl-block
+          img(src='@/assets/curso/unidad/img-37.png', alt='Texto que describa la imagen')
+
+      .row.mb-4
         .col-12.col-lg-7.col-xl-8
           AcordionA(tipo="b")
-            .div(titulo="Comunicación corporal")
-              p Uso del cuerpo (gestos, miradas, posturas) como medio para expresar emociones, intenciones y necesidades. Favorece la comprensión mutua cuando aún no hay lenguaje verbal consolidado.
-            .div(titulo="Empatía y reconocimiento emocional")
-              p A través del juego corporal, los niños aprenden a interpretar y compartir emociones con sus pares. Esto fortalece el lazo social y la cooperación.
-            .div(titulo="Interacción social y juego compartido")
-              p Las actividades físicas grupales fomentan la capacidad de seguir reglas, esperar turnos y colaborar. El cuerpo se convierte en un medio para la integración social.
-            .div(titulo="Resolución de conflictos")
-              p La interacción física controlada enseña a canalizar impulsos, negociar y resolver tensiones a través de movimientos regulados y estrategias sociales.
-            .div(titulo="Imitación y aprendizaje social")
-              p Los niños imitan gestos y movimientos de otros como forma de aprendizaje. Este proceso favorece la adquisición de normas y comportamientos aceptados.
-            .div(titulo="Exploración del espacio común")
-              p Compartir el espacio en actividades motrices (como juegos con pelotas o dinámicas grupales) enseña nociones de proximidad, respeto al otro y cooperación.
+            .div(titulo="a. Espacios y organización que fomenten la ejercitación de habilidades motrices")
+              p El diseño del entorno físico debe estimular el desarrollo motor del alumnado. Un espacio bien organizado debe: 
 
-      h2 Movimiento como medio de aprendizaje social y conceptual
-      .row.mb-4
-        .col-12.col-xl-8
-          p.mb-4 Además de sus efectos sociales y emocionales, el movimiento también tiene un impacto <b>en la construcción del pensamiento y el aprendizaje abstracto</b>. Gutiérrez y Castillo (2014) explican que:
-          .bg-amarillo.p-4(data-aos='fade-up')
-            div.d-flex
-              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
-              p <b>Manipular objetos</b>y explorar el espacio permiten comprender conceptos como causa-efecto, tamaño, forma y distancia.
-            div.d-flex
-              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
-              p <b>Participar en juegos colectivos</b> desarrolla habilidades como la categorización, la secuenciación y la anticipación de acciones.
-            span En síntesis, el movimiento en la primera infancia <b>no es solo desplazamiento</b>; es una poderosa herramienta de <b>relación, aprendizaje y expresión</b>. Cada acción motriz implica una conexión con los otros, con el entorno y con uno mismo. 
-        .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-41.png', alt='Texto que describa la imagen')
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 Ser amplio y seguro, permitiendo movimientos libres sin obstáculos peligrosos. 
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 Incluir zonas diferenciadas para realizar actividades específicas como correr, saltar, trepar o mantener el equilibrio. 
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 Contar con superficies variadas (suelos blandos, rampas, colchonetas) que estimulen diferentes habilidades motrices. 
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 Favorecer la autonomía del alumnado, permitiendo que exploren y decidan sus propios movimientos.
+            .div(titulo="b. Materiales sugerentes y polivalentes para la exploración motriz")
+              p Los materiales deben ser versátiles y adaptables. Algunos ejemplos: 
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 Pelotas de diferentes tamaños, pesos y texturas, que favorecen el desarrollo de la coordinación y el control corporal. 
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 Cuerdas y aros, que promueven el equilibrio, la agilidad y la coordinación. 
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 Bloques y estructuras modulares, que invitan a trepar, construir o rediseñar el espacio. 
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 Elementos naturales como troncos, piedras o arena, que estimulan la percepción sensorial y el contacto con el entorno natural.
+              
+            .div(titulo="c. Un clima de aula que favorezca el aprendizaje y la disposición para moverse")
+              p El componente emocional y social del ambiente es determinante para que el alumnado se sienta motivado y dispuesto a participar. Para crear un clima adecuado, es necesario: 
+
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 Fomentar la confianza y el respeto, para que los niños se sientan seguros y se atrevan a probar nuevos movimientos. 
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 Incluir música y juegos con ritmos y dinámicas que estimulen el movimiento de forma lúdica. 
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 Promover la cooperación mediante actividades grupales que favorezcan la interacción social. 
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 Evitar la presión y la competencia excesiva, priorizando el disfrute, la exploración y el aprendizaje sobre el rendimiento físico.
+        .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
+          img(src='@/assets/curso/unidad/img-38.png', alt='Texto que describa la imagen')
+
+      .row.bg-gris-oscuro.bg-full-width.py-4.mb-4
+        div.px-5.pb-md-3.py-4.d-flex
+          .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
+            h2.mb-4.pb-2.me-auto Tipos de espacios donde ocurre el aprendizaje
+            p.mb-5(data-aos="fade-up") Se invita a leer el documento Tipos de espacios donde ocurre el aprendizaje, donde se aborda una clasificación de los ambientes educativos basada en los criterios de origen, movilidad y forma de participación, según la propuesta de Ríos Ferreras (2014).
+            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_espacios.pdf')" target="_blank")
+              img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
+              p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Tipos de espacios donde ocurre el aprendizaje
+          .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")
+            img.h-100(src='@/assets/curso/unidad/img-39.png', alt='Texto que describa la imagen')
 
       #t_2_1.titulo-segundo(data-aos="flip-up")
         div.d-flex
           span.me-3 2.1
-          h2 Competencias sociales
+          h2 El juego como recurso didáctico en Educación Física
 
       .row.mb-4
-        .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-42.png', alt='Texto que describa la imagen')
         .col-12.col-xl-8
-          p.mb-4 El desarrollo social en la infancia, según Gil et al. (2008), citado por Duarte, Rodríguez y Castro-Martínez (2017), se refiere a cómo la sociedad influye en las interacciones de los niños con su entorno: pares, adultos e instituciones. En esta dimensión, el cuerpo y el movimiento tienen un rol crucial al permitir que los infantes establezcan contacto con los demás, reciban retroalimentación y participen en experiencias compartidas que enriquecen su aprendizaje y adaptación social.
+          p.mb-4 El juego es un componente esencial en la vida de los niños, especialmente durante la Educación Primaria. No se trata solo de diversión, sino de un <b>medio indispensable para el desarrollo integral</b>. Como expresó Jean Chateau, citado por Ríos Ferreras (2014):
           .d-flex.bg-azul-oscuro.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-43.svg', alt='Texto descriptivo de la imagen')
+            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-40.svg', alt='Texto descriptivo de la imagen')
             .my-auto.p-4.p-xl-0
-              p.pe-xl-3.mb-0 El contacto corporal y la interacción motriz ofrecen a los niños y niñas sus primeras experiencias de <b>trabajo en grupo,</b> donde aprenden a interactuar, compartir y colaborar con sus pares. Para Bolaños (2006), citado por Duarte et al., estas interacciones tempranas son esenciales para el desarrollo de <b>relaciones sociales significativas</b>.
-          span Según Caballo (1986), citado por Rodríguez Camón (2016), las <b>habilidades sociales</b> son un conjunto de conductas utilizadas para expresar sentimientos, actitudes y opiniones de forma adecuada en contextos interpersonales, respetando a los demás y favoreciendo la resolución de conflictos. Estas habilidades pueden dividirse en dos categorías principales:
+              p.pe-xl-3.mb-0 “No se debería decir que el niño solamente crece, habría que decir que se desarrolla por el juego”.
+          span En el contexto escolar, y en particular en Educación Física, suelen prevalecer los <b>juegos dirigidos</b> organizados por el docente, mientras que el <b>juego libre</b> aparece con menor frecuencia.
+        .col-4.d-none.d-xl-block
+          img(src='@/assets/curso/unidad/img-41.png', alt='Texto que describa la imagen')
 
       TabsC.mb-4
-        .tabs-content.border.px-4.p-md-5.py-3(titulo='Comportamiento no verbal', :icon="require('@/assets/curso/unidad/img-44.svg')")
+        .tabs-content.border.px-4.p-md-5.py-3(titulo='Juego dirigido', :icon="require('@/assets/curso/unidad/img-32.svg')")
           .row
             .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
               figure
-                img(src='@/assets/curso/unidad/img-45.png', alt='Descripción de la imagen')
+                img(src='@/assets/curso/unidad/img-42.png', alt='Descripción de la imagen')
             .col-md-12.col-lg-7.mb-4.mb-md-0
-              h4(data-aos='fade-up') Comportamiento no verbal
-              p(data-aos='fade-up') Incluye gestos, expresión facial, mirada, postura, proximidad física, contacto, claves vocales y apariencia personal. Estas señales aportan información emocional y actitudinal clave en la comunicación.
-        .tabs-content.border.px-4.p-md-5.py-3(titulo='Comportamiento verbal', :icon="require('@/assets/curso/unidad/img-44.svg')")
+              h4(data-aos='fade-up') Juego dirigido
+              p(data-aos='fade-up') Planificado, estructurado y gestionado por el docente, quien actúa como <i>jugador experto</i> (Ríos Ferreras, 2014). Está orientado a desarrollar habilidades específicas, fomentar la cooperación y mejorar la disciplina. Se establecen reglas y objetivos precisos. Sin embargo, su uso excesivo puede limitar la iniciativa del alumnado. (Gallardo, Gavira, Fernández, 2010)
+        .tabs-content.border.px-4.p-md-5.py-3(titulo='Juego libre', :icon="require('@/assets/curso/unidad/img-32.svg')")
           .row
             .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
               figure
-                img(src='@/assets/curso/unidad/img-46.png', alt='Descripción de la imagen')
+                img(src='@/assets/curso/unidad/img-43.png', alt='Descripción de la imagen')
             .col-md-12.col-lg-7.mb-4.mb-md-0
-              h4(data-aos='fade-up') Comportamiento verbal
-              p(data-aos='fade-up') Implica el uso del lenguaje para informar, pedir, expresar emociones u opiniones. Su efectividad depende del contexto y la relación entre interlocutores.
+              h4(data-aos='fade-up') Juego libre
+              p(data-aos='fade-up') Surge de manera espontánea, sin intervención directa del adulto. Permite la autoexpresión, la exploración motriz y el desarrollo de la creatividad. Favorece el pensamiento autónomo y una relación más natural con el entorno y con los demás. Es fundamental para el crecimiento emocional del niño. (Gallardo, Gavira, Fernández, 2010)
+      
+      h2 Juego y pedagogía invisible
+      p.mb-4 El concepto de juego en los ambientes de aprendizaje puede entenderse desde la perspectiva de la <b>pedagogía invisible de Basil Bernstein</b>, citada por Ríos Ferreras (2014):
 
-      p.mb-4 Estas habilidades deben enseñarse y practicarse desde edades tempranas, ya que su adquisición no es automática. La falta de una enseñanza intencionada puede dificultar la interiorización de conductas sociales esenciales para el desarrollo integral del niño (Rodríguez Camón, 2016). Rodríguez Camón (2016) también señala que diversos factores pueden limitar la expresión de habilidades sociales adecuadas:
+      ImagenInfografica.color-secundario.mb-4.bg-white
+        template(v-slot:imagen)
+          figure
+            img(src='@/assets/curso/unidad/img-44.png', alt='Descripción de la imagen')
+        .tarjeta.bg-white.p-4(x='8.6%' y='18%' numero='+')
+          .h5.mb-2 El juego es una forma de expresión del niño 
+          p El niño se comunica con el docente a través del juego, mostrando emociones y conocimientos de forma auténtica.
+        .tarjeta.bg-white.p-4(x='20.7%' y='78.4%' numero='+')
+          .h5.mb-2 Los objetivos y recursos del juego son variables
+          p No se trata de una actividad rígida, sino dinámica, cambiante, ajustada al contexto y a las necesidades del grupo.
+        .tarjeta.bg-white.p-4(x='87.4%' y='62.3%' numero='+')
+          .h5.mb-2 El juego es un acto personalizado
+          p No está limitado a estructuras prefijadas ni esquemas individualistas; cada niño vive el juego a su manera.
+        .tarjeta.bg-white.p-4(x='85.5%' y='18%' numero='+')
+          .h5.mb-2 El juego también permite evaluar
+          p A través del juego, se pueden observar logros, competencias, actitudes y procesos de aprendizaje de manera significativa.
 
-      .row.bg-fondo-2.bg-full-width.py-4.mb-4
-        div.px-5.pb-md-3
+      p.mb-4 La función emocional y social del juego son: 
+      .row.mb-4
+        .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
+          img(src='@/assets/curso/unidad/img-45.png', alt='Texto que describa la imagen')
+        .col-12.col-lg-7.col-xl-8
+          AcordionA(tipo="b")
+            .div(titulo="Afectiva")
+              p Las experiencias motrices y lúdicas permiten establecer vínculos afectivos significativos. Favorecen el reconocimiento, la expresión y el control progresivo de emociones y sentimientos. (Gallardo, Gavira, Fernández, 2010)
+            .div(titulo="Cognitiva y personal")
+              p En la educación infantil, el juego integra pensamiento, acción y emoción. Contribuye al desarrollo del autoconocimiento y la autonomía personal, elementos clave para la construcción de la identidad.
+            .div(titulo="Social")
+              p Facilita el aprendizaje de normas de convivencia, el respeto por el otro, la cooperación y el trabajo en equipo. El juego compartido promueve la inclusión y la empatía.
 
-          .row.mb-4
-            .col-4.d-none.d-xl-block
-              img(src='@/assets/curso/unidad/img-47.png', alt='Texto que describa la imagen')
-            .col-12.col-xl-8
-              SlyderF(columnas='col-12 col-lg-6 py-4 px-3')
-                .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                  img.mx-auto.mb-4(src='@/assets/curso/unidad/img-48.svg', style='width: 80px')
-                  p.text-bold.mb-4.text-center Falta de aprendizaje
-                  p.px-1.text-small.mb-0.text-center El niño no ha sido expuesto ni enseñado a comportarse socialmente de manera apropiada.
-                .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                  img.mx-auto.mb-4(src='@/assets/curso/unidad/img-49.svg', style='width: 80px')
-                  p.text-bold.mb-4.text-center Ansiedad condicionada
-                  p.px-1.text-small.mb-0.text-center Presión o miedo frente a contextos sociales que inhiben la acción.
-                .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                  img.mx-auto.mb-4(src='@/assets/curso/unidad/img-50.svg', style='width: 80px')
-                  p.text-bold.mb-4.text-center Evaluación cognitiva deficiente
-                  p.px-1.text-small.mb-0.text-center El niño malinterpreta la situación o su rol en ella.
-                .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                  img.mx-auto.mb-4(src='@/assets/curso/unidad/img-51.svg', style='width: 80px')
-                  p.text-bold.mb-4.text-center Falta de motivación
-                  p.px-1.text-small.mb-0.text-center No encuentra interés ni valor en la interacción.
-                .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                  img.mx-auto.mb-4(src='@/assets/curso/unidad/img-52.svg', style='width: 80px')
-                  p.text-bold.mb-4.text-center Dificultad para discriminar contextos
-                  p.px-1.text-small.mb-0.text-center No diferencia entre situaciones que requieren distintas conductas.
-                .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                  img.mx-auto.mb-4(src='@/assets/curso/unidad/img-53.svg', style='width: 80px')
-                  p.text-bold.mb-4.text-center Obstáculos ambientales
-                  p.px-1.text-small.mb-0.text-center Entornos restrictivos o carentes de estímulo social.
-
-      .row.bg-fondo-2.bg-full-width.py-4.mb-4
-        div.px-5.pb-md-3
-
-          .row.mb-4
-            .col-12.col-xl-8
-              .mb-4.bg-gris.p-4(data-aos='fade-up')
-                span El desarrollo adecuado de estas habilidades es fundamental no solo para el vínculo con los demás, sino también para el crecimiento <b>emocional y cognitivo</b> del niño.
-              span En esta misma dimensión social, la categoría Sociedad y Cultura resalta cómo el cuerpo y el movimiento reflejan los valores culturales, normas sociales y formas de identidad. Según Remorini (2010), citado por Duarte, Rodríguez y Castro-Martínez (2017), el cuerpo actúa como un <b>marcador cultural</b> que expresa aspectos como género, edad, clase social e identidad individual o colectiva. Los gestos, las posturas y los movimientos permiten identificar características propias de cada cultura.
-            .col-4.d-none.d-xl-block
-              img(src='@/assets/curso/unidad/img-54.png', alt='Texto que describa la imagen')
-          
-          .row
-            .col-10.col-md-6.col-lg-4.mb-4.mb-lg-0(data-aos='fade-up')
-              .d-flex.bg-amarillo-oscuro.p-3.h-100.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-                img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-55.svg', alt='Texto descriptivo de la imagen')
-                .my-auto.p-4.p-xl-0
-                  p.pe-xl-3.mb-2.text-bold Género
-                  span Formas de caminar, jugar o expresarse pueden diferenciarse culturalmente.
-            .col-10.col-md-6.col-lg-4.mb-4.mb-lg-0(data-aos='fade-up')
-              .d-flex.bg-amarillo-oscuro.p-3.h-100.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-                img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-56.svg', alt='Texto descriptivo de la imagen')
-                .my-auto.p-4.p-xl-0
-                  p.pe-xl-3.mb-2.text-bold Edad
-                  span Se espera un uso del cuerpo diferente según la etapa del desarrollo.
-            .col-10.col-md-6.col-lg-4.mb-4.mb-lg-0(data-aos='fade-up')
-              .d-flex.bg-amarillo-oscuro.p-3.h-100.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-                img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-57.svg', alt='Texto descriptivo de la imagen')
-                .my-auto.p-4.p-xl-0
-                  p.pe-xl-3.mb-2.text-bold Identidad cultural
-                  span Posturas, gestos y movimientos reflejan costumbres, creencias y pertenencia cultural.
-
-      p.mb-4 Lo que los niños y niñas aprenden durante sus primeras etapas de socialización influye en cómo utilizarán su cuerpo a lo largo de la vida. Por ello, es esencial que desarrollen un <b>conocimiento profundo de su corporalidad</b>, lo que les permitirá comprender mejor su cultura, identidad y formas de interactuar socialmente.
+      .d-flex.bg-azul.bg-full-width.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
+        img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-3.svg', alt='Texto descriptivo de la imagen')
+        .my-auto.p-4.p-xl-0
+          p.pe-xl-3.mb-0 Como resume <b>Blández (2000)</b>, citado por Ríos Ferreras (2014): <i>“Los alumnos aprenden jugando y juegan aprendiendo”.</i>
 
       #t_2_2.titulo-segundo(data-aos="flip-up")
         div.d-flex
           span.me-3 2.2
-          h2 Competencias emocionales
+          h2 Los objetivos de la enseñanza de Educación Física en la educación
 
       .row.mb-4
-        .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-58.png', alt='Texto que describa la imagen')
         .col-12.col-xl-8
-          .bg-azul.p-4(data-aos='fade-up').mb-4
-            span Las competencias emocionales forman parte fundamental del desarrollo social en la infancia. Según Ruano et al. (2006), citado por Duarte, Rodríguez y Castro-Martínez (2017), los niños expresan sus emociones, ideas y estados de ánimo <b>a través del cuerpo y el movimiento</b> desde los primeros años de vida. Esta expresión no verbal —como los gestos y la postura corporal— constituye una vía primaria de comunicación emocional en la infancia.
-          span A medida que los niños adquieren mayor conciencia de sus capacidades motoras, también desarrollan habilidades clave como la <b>empatía</b> y el <b>reconocimiento de emociones ajenas</b>. Las principales categorías dentro de esta dimensión son:
-
-      TabsC.mb-4
-        .tabs-content.border.px-4.p-md-5.py-3(titulo='Expresión emocional', :icon="require('@/assets/curso/unidad/img-59.svg')")
-          .row
-            .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
-              figure
-                img(src='@/assets/curso/unidad/img-60.png', alt='Descripción de la imagen')
-            .col-md-12.col-lg-7.mb-4.mb-md-0
-              h4(data-aos='fade-up') Expresión emocional
-              p(data-aos='fade-up') Capacidad de comunicar sentimientos y estados de ánimo mediante lenguaje verbal y corporal.
-        .tabs-content.border.px-4.p-md-5.py-3(titulo='Reconocimiento de emociones ajenas', :icon="require('@/assets/curso/unidad/img-59.svg')")
-          .row
-            .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
-              figure
-                img(src='@/assets/curso/unidad/img-61.png', alt='Descripción de la imagen')
-            .col-md-12.col-lg-7.mb-4.mb-md-0
-              h4(data-aos='fade-up') Reconocimiento de emociones ajenas
-              p(data-aos='fade-up') Habilidad para interpretar las emociones en los otros a través de señales como el tono de voz, gestos o expresiones faciales.
-
-      .row.mb-4
+          .bg-gris.p-4.mb-4(data-aos='fade-up')
+            span El área de <b>Educación Física</b> se centra en el <b>cuerpo y la motricidad humana</b>, orientándose al desarrollo de capacidades físicas, habilidades sociales y la apropiación de elementos culturales que favorecen el crecimiento personal y una <b>mejor calidad de vida</b>.
+          span A continuación, se exponen los objetivos fundamentales de la Educación Física, destacando su papel en la formación integral del alumnado y su contribución al desarrollo de competencias motrices, afectivas y sociales en un marco de inclusión y respeto por la diversidad.
         .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-62.png', alt='Texto que describa la imagen')
-        .col-12.col-xl-8
-          p.mb-4 Según Bisquerra Alzina y Pérez Escoda (2007), estas competencias son esenciales para el desarrollo integral, ya que permiten comprender, expresar y <b>autorregular las emociones</b>, influyendo positivamente en el bienestar emocional y la calidad de las relaciones interpersonales.
-          .bg-gris.p-4(data-aos='fade-up').mb-4
-            span Desde muy temprano, los niños experimentan emociones básicas como alegría, tristeza, enojo y miedo. No obstante, la forma en que las manifiestan depende de su madurez cognitiva y del contexto en que crecen. Estas emociones se expresan de distintas formas: mediante el lenguaje verbal, la comunicación no verbal y el comportamiento observable.
-          span Es indispensable que los adultos promuevan un entorno <b>seguro y afectuoso</b>, donde los niños se sientan cómodos expresando sus emociones. Para facilitar esto, se recomiendan estrategias como:
-
-      .row
-        .col-10.col-md-6.col-lg-4.mb-4.mb-lg-0(data-aos='fade-up')
-          .d-flex.bg-amarillo-oscuro.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-63.svg', alt='Texto descriptivo de la imagen')
-            .my-auto.p-4.p-xl-0
-              p.pe-xl-3.mb-2.text-bold 01
-              span Cuentos y dramatizaciones
-        .col-10.col-md-6.col-lg-4.mb-4.mb-lg-0(data-aos='fade-up')
-          .d-flex.bg-amarillo-oscuro.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-64.svg', alt='Texto descriptivo de la imagen')
-            .my-auto.p-4.p-xl-0
-              p.pe-xl-3.mb-2.text-bold 02
-              span Juegos de roles
-        .col-10.col-md-6.col-lg-4.mb-4.mb-lg-0(data-aos='fade-up')
-          .d-flex.bg-amarillo-oscuro.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-65.svg', alt='Texto descriptivo de la imagen')
-            .my-auto.p-4.p-xl-0
-              p.pe-xl-3.mb-2.text-bold 03
-              span Actividades artísticas
+          img(src='@/assets/curso/unidad/img-46.png', alt='Texto que describa la imagen') 
 
       .row.bg-fondo-1.bg-full-width.py-4.mb-4
-        div.px-5.pb-md-3
-
-          .row.mb-4
-            .col-4.d-none.d-xl-block
-              img(src='@/assets/curso/unidad/img-66.png', alt='Texto que describa la imagen')
-            .col-12.col-xl-8
-              p.mb-4 Estas herramientas fomentan la <b>conciencia emocional</b>, permitiendo que los niños exploren y canalicen sus emociones de manera saludable. Además, el <b>refuerzo positivo</b> y la <b>validación emocional</b> por parte de cuidadores y educadores son fundamentales para que los niños se sientan comprendidos. Esto fortalece su <b>autoestima</b> y los ayuda a gestionar la frustración o el estrés.
-              .bg-azul-oscuro.p-4(data-aos='fade-up').mb-4
-                span La capacidad de <b>reconocer las emociones de los demás</b> es clave para la empatía y la inteligencia emocional. En la primera infancia, esta habilidad comienza a desarrollarse al observar expresiones faciales, tonos de voz y comportamientos en padres, maestros y compañeros. Con el tiempo, los niños aprenden a ajustar su conducta en función de estas señales emocionales. Para fortalecer esta capacidad, Bisquerra Alzina y Pérez Escoda (2007) proponen actividades como:
-
-          .row.mb-4.justify-content-center
-            .col-10.col-md-8.col-lg-6.col-xl-4.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
-              .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-67.svg', style='width: 80px')
-                p.text-bold.mb-4.text-center Juegos de expresión facial
-                p.px-1.text-small.mb-0.text-center Identificar emociones básicas a través del rostro.
-            .col-10.col-md-8.col-lg-6.col-xl-4.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
-              .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-68.svg', style='width: 80px')
-                p.text-bold.mb-4.text-center Dinámicas de identificación emocional
-                p.px-1.text-small.mb-0.text-center Reconocer emociones en diferentes contextos y situaciones.
-            .col-10.col-md-8.col-lg-6.col-xl-4.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
-              .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-69.svg', style='width: 80px')
-                p.text-bold.mb-4.text-center Ejercicios de <i>role-playing</i>
-                p.px-1.text-small.mb-0.text-center Ensayar respuestas empáticas y adecuadas a emociones ajenas.
-
-      p.mb-4 Estas prácticas enriquecen la sensibilidad emocional del niño y favorecen la construcción de vínculos sociales sanos y empáticos.
-      
-      #t_2_3.titulo-segundo(data-aos="flip-up")
-        div.d-flex
-          span.me-3 2.3
-          h2 Competencias comunicativas
-
-      .row.mb-4
-        .col-12.col-xl-8
-          p.mb-4 Las <b>competencias comunicativas</b> son fundamentales en la dimensión del cuerpo y el movimiento en relación hacia los demás. Desde los primeros años de vida, los seres humanos usan su cuerpo para comunicarse con su entorno. El movimiento se convierte en uno de los primeros lenguajes de la infancia, facilitando tanto la expresión como la comprensión del mundo (Duarte, Rodríguez y Castro-Martínez, 2017).
-          .bg-azul-oscuro.p-4(data-aos='fade-up').mb-4
-            span Fomentar el movimiento no solo fortalece la <b>expresión corporal</b>, sino que también potencia habilidades relacionadas con el lenguaje, como la <b>comprensión verbal</b>, la <b>lectura</b> y el <b>enriquecimiento del vocabulario</b>. Un niño con conciencia corporal desarrolla con mayor facilidad competencias de <b>escucha y expresión verbal</b>, esenciales para su desarrollo integral (Duarte, Rodríguez y Castro-Martínez, 2017).
-          span Estas competencias incluyen tres grandes categorías: <i>expresión de ideas, capacidad de escucha y lenguaje</i>, cada una con subcategorías que contribuyen al desarrollo cognitivo y social del niño.
-        .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-70.png', alt='Texto que describa la imagen')
-
-      .row.mb-4
-        .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
-          img(src='@/assets/curso/unidad/img-71.png', alt='Texto que describa la imagen')
-        .col-12.col-lg-7.col-xl-8
-          AcordionA(tipo="b")
-            .div(titulo="Expresión de ideas")
-              p <i>Subcategorías:</i> Comunicación verbal y no verbal. <br><i>Descripción:</i> Permite a los niños expresar pensamientos y emociones, fundamentales para socializar y construir pensamiento. <br><i>Estrategias:</i> Fomentar el diálogo en casa y en clase, usar juegos de roles, promover la narración de cuentos.
-
-            .div(titulo="Capacidad de escucha")
-              p <i>Subcategorías:</i> Atención auditiva y comprensión. <br><i>Descripción:</i> Es esencial para la comunicación efectiva. Implica escuchar activamente, interpretar y responder adecuadamente. <br><i>Estrategias:</i> Juegos de atención auditiva, lectura con preguntas, dinámicas de conversación grupal.
-
-            .div(titulo="Lenguaje")
-              p <i>Subcategorías:</i> Lectura, vocabulario, estructuras gramaticales. <br><i>Descripción:</i> El acceso a libros y la estimulación lingüística mejoran el pensamiento crítico y las habilidades expresivas. <br><i>Estrategias:</i> Lectura en voz alta con interacción, exploración de textos, creación de historias propias.
-
-      .row.bg-fondo-1.bg-full-width.py-4.mb-4
-        div.px-5.pb-md-3
-
-          .row.mb-4
-            .col-12.col-xl-8
-              .bg-azul.p-4(data-aos='fade-up').mb-4
-                span Pico Mora (2017) afirma que las <b>competencias comunicativas</b> permiten expresar pensamientos, emociones y necesidades, al tiempo que desarrollan la capacidad de comprender a los demás. Estas habilidades se construyen de forma progresiva y dependen del entorno, las experiencias educativas y las interacciones sociales.
-              span El desarrollo del lenguaje se ve enriquecido mediante la <b>introducción de palabras nuevas en contextos significativos</b>, lo que amplía el vocabulario y mejora la expresión verbal.
-            .col-4.d-none.d-xl-block
-              img(src='@/assets/curso/unidad/img-72.png', alt='Texto que describa la imagen')
+        div.px-5
           
           .row.mb-4
-            .col-8.col-md-6.col-lg-4.mx-auto.mb-4.mb-lg-0(data-aos='fade-up')
-              .d-flex.bg-amarillo-oscuro.p-3.h-100.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-                img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-73.svg', alt='Texto descriptivo de la imagen')
-                .my-auto.p-4.p-xl-0
-                  p.pe-xl-3.mb-2.text-bold Juegos de asociación semántica 
-                  span Relacionar palabras por categorías.
-            .col-8.col-md-6.col-lg-4.mx-auto.mb-4.mb-lg-0(data-aos='fade-up')
-              .d-flex.bg-amarillo-oscuro.p-3.h-100.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-                img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-74.svg', alt='Texto descriptivo de la imagen')
-                .my-auto.p-4.p-xl-0
-                  p.pe-xl-3.mb-2.text-bold Canciones y rimas
-                  span Adquirir vocabulario de forma lúdica y memorizable.
-            .col-8.col-md-6.col-lg-4.mx-auto.mb-4.mb-lg-0(data-aos='fade-up')
-              .d-flex.bg-amarillo-oscuro.p-3.h-100.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-                img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-75.svg', alt='Texto descriptivo de la imagen')
-                .my-auto.p-4.p-xl-0
-                  p.pe-xl-3.mb-2.text-bold Conversaciones guiadas
-                  span Incorporar nuevos términos con explicaciones comprensibles.
-      p.mb-4 Estas estrategias fortalecen tanto la expresión como la comprensión, dos pilares de la comunicación efectiva en la infancia.
+            .col-6.d-none.d-xl-block
+              img(src='@/assets/curso/unidad/img-47.png', alt='Texto que describa la imagen')
+            .col-12.col-xl-6
+              TarjetaAudio.color-secundario.bg-white.mb-3(
+                texto='Educación corporal podcast'
+                tiempo
+                :audio="require('../../assets/componentes/audios/Educación_corporal_Podcast_Unidad_III.mp3')"
+                @audio-hover='mostrarIndicadorTarjetaAudio = false'
+              )
 
-      #t_2_4.titulo-segundo(data-aos="flip-up")
-        div.d-flex
-          span.me-3 2.4
-          h2 Competencias Ciudadanas
+          h2 Enfoque de la educación física en la primera infancia
+          p.mb-4 Para Gallardo y Gavira Fernández (2010), en la primera infancia la Educación Física se organiza a partir de dos grandes finalidades:
 
-      .row.mb-4
-        .col-12.col-xl-8
-          .bg-gris-oscuro.p-4(data-aos='fade-up').mb-4
-            span Las <b>competencias ciudadanas</b> en la primera infancia, según Duarte, Rodríguez y Castro-Martínez (2017), se desarrollan a través del cuerpo y el movimiento, que permiten a los niños aprender a <b>cooperar, elegir, participar y seguir instrucciones</b> en contextos sociales. Citando a Shoval, Sharir y Shulruf (2014), destacan que estas actividades fortalecen habilidades clave para la vida en comunidad. De forma complementaria, Furmanek (2014) señala que el movimiento facilita la <b>comprensión de instrucciones</b>, esencial para el aprendizaje y la participación activa.
-          span Estas habilidades se agrupan en tres categorías principales: <i>cooperación, seguimiento de instrucciones y comprensión de reglas y normas</i>, que constituyen pilares de la formación ciudadana en la infancia.
-        .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-76.png', alt='Texto que describa la imagen')
-
-      TabsC.mb-4
-        .tabs-content.border.px-4.p-md-5.py-3(titulo='Cooperación', :icon="require('@/assets/curso/unidad/img-77.svg')")
           .row
-            .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
-              figure
-                img(src='@/assets/curso/unidad/img-78.png', alt='Descripción de la imagen')
-            .col-md-12.col-lg-7.mb-4.mb-md-0
-              h4(data-aos='fade-up') Cooperación
-              p(data-aos='fade-up') Implica trabajar en equipo, compartir recursos y respetar turnos. Se promueve con juegos colaborativos, dinámicas grupales y actividades con metas comunes.
-        .tabs-content.border.px-4.p-md-5.py-3(titulo='Seguimiento de instrucciones', :icon="require('@/assets/curso/unidad/img-77.svg')")
-          .row
-            .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
-              figure
-                img(src='@/assets/curso/unidad/img-79.png', alt='Descripción de la imagen')
-            .col-md-12.col-lg-7.mb-4.mb-md-0
-              h4(data-aos='fade-up') Seguimiento de instrucciones
-              p(data-aos='fade-up') Consiste en escuchar, comprender y ejecutar indicaciones. Se fortalece con juegos de reglas, actividades secuenciales y dinámicas de escucha atenta.
-        .tabs-content.border.px-4.p-md-5.py-3(titulo='Comprensión de reglas y normas', :icon="require('@/assets/curso/unidad/img-77.svg')")
-          .row
-            .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
-              figure
-                img(src='@/assets/curso/unidad/img-80.png', alt='Descripción de la imagen')
-            .col-md-12.col-lg-7.mb-4.mb-md-0
-              h4(data-aos='fade-up') Comprensión de reglas y normas
-              p(data-aos='fade-up') Permite interactuar armoniosamente en comunidad. Se construye mediante observación, práctica y refuerzo positivo, con herramientas como el juego simbólico, los cuentos con valores y las actividades comunitarias.
+            .col-10.col-md-6.mx-auto
+              .d-flex.bg-amarillo-oscuro.px-3.h-100.py-2.flex-column.flex-md-row.mb-4(data-aos='fade-up')
+                img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-48.svg', alt='Texto descriptivo de la imagen')
+                .my-auto.p-4.p-xl-0
+                  p.pe-4.mb-2.text-bold Educación del cuerpo y del movimiento 
+                  span Se busca desarrollar habilidades físicas y motrices, promoviendo la adquisición de hábitos saludables que perduren a lo largo de la vida.
+            .col-10.col-md-6.mx-auto
+              .d-flex.bg-amarillo-oscuro.px-3.h-100.py-2.flex-column.flex-md-row.mb-4(data-aos='fade-up')
+                img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-49.svg', alt='Texto descriptivo de la imagen')
+                .my-auto.p-4.p-xl-0
+                  p.pe-4.mb-2.text-bold Educación a través del cuerpo y el movimiento
+                  span El cuerpo se convierte en una herramienta para fortalecer habilidades sociales y emocionales necesarias para la convivencia, el trabajo en equipo y la autorregulación emocional.
 
-      .row.mb-4
-        .col-12.col-xl-8
-          p.mb-4 Gutiérrez Carvajal (2021) sostiene que estas competencias son esenciales para formar a los niños como <b>miembros activos y responsables de la sociedad</b>, capaces de interactuar con respeto, de tomar decisiones y de asumir responsabilidades dentro de su grupo social.
-          .bg-gris-oscuro.p-4(data-aos='fade-up')
-            span Además, los niños deben comprender que forman parte de una comunidad y que sus acciones tienen consecuencias en el entorno. Esto se logra <b>fomentando su participación activa</b> en actividades donde puedan expresar opiniones, tomar decisiones y asumir pequeños roles de liderazgo, adecuados a su edad.
+      h2 Áreas de contenido en Educación Física
+
+      p.mb-4 Gallardo y Gavira Fernández (2010) estructuran los contenidos de la Educación Física en cuatro áreas principales, cada una con objetivos específicos y actividades asociadas:
+
+      .row.position-relative.mb-5.py-4.bg-fondo-slider.bg-full-width
+        div.px-4.px-md-5.py-md-3
+          SlyderA(tipo="b").bg-white
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold Condición física y salud 
+                div.d-flex
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                  p.mb-0 Desarrollo de resistencia, fuerza, flexibilidad y coordinación.
+                div.d-flex
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                  p.mb-0 Fomento de hábitos saludables y prevención de enfermedades.
+                div.d-flex
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                  p.mb-0 Ejercicios cardiovasculares adaptados a la edad.
+                div.d-flex
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                  p.mb-0 Fortalecimiento muscular y autocuidado.
+                div.d-flex
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                  p.mb-0 Educación sobre nutrición, higiene y bienestar físico.
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-50.png', alt='Texto que describa la imagen')
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold Juegos y deportes 
+                div.d-flex
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                  p.mb-0 Participación en juegos tradicionales y contemporáneos.
+                div.d-flex
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                  p.mb-0 Práctica de deportes individuales y colectivos como fútbol, baloncesto o atletismo.
+                div.d-flex
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                  p.mb-0 Desarrollo de estrategias y tácticas deportivas.
+                div.d-flex
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                  p.mb-0 Transmisión de valores como el respeto, la disciplina, la solidaridad y el trabajo en equipo.
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-51.png', alt='Texto que describa la imagen')
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold Expresión corporal 
+                div.d-flex
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                  p.mb-0 Actividades rítmicas y coreográficas para desarrollar coordinación.
+                div.d-flex
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                  p.mb-0 Juegos teatrales y de mímica para la expresión emocional.
+                div.d-flex
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                  p.mb-0 Ejercicios de relajación y conciencia corporal.
+                div.d-flex
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                  p.mb-0 Uso del lenguaje corporal como medio de comunicación no verbal.
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-52.png', alt='Texto que describa la imagen')
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold Actividades en el medio natural 
+                div.d-flex
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                  p.mb-0 Prácticas al aire libre como senderismo, ciclismo, escalada o kayak.
+                div.d-flex
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                  p.mb-0 Educación ambiental y respeto por el entorno.
+                div.d-flex
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                  p.mb-0 Actividades recreativas que fomenten la exploración y el disfrute del medio natural.
+                div.d-flex
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                  p.mb-0 Desarrollo del bienestar físico y mental mediante el contacto con la naturaleza.
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-53.png', alt='Texto que describa la imagen')
+
+      h2 Importancia del juego y el deporte
+      p.mb-4 El área de <b>juegos y deportes</b> es clave dentro de la Educación Física. A través de experiencias lúdicas, los estudiantes:
+
+      .row.bg-gris.p-4.py-xl-0.mb-4(data-aos='fade-up')
         .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-81.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/unidad/img-54.png', alt='Texto descriptivo de la imagen') 
+        .col-12.col-xl-8.d-flex
+          .my-auto
+            div.d-flex.mb-3
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 Mejoran sus <b>capacidades físicas.</b>
+            div.d-flex.mb-3
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 Desarrollan actitudes positivas como la <b>cooperación, la inclusión y la participación activa.</b>
+            div.d-flex.mb-3
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+              p.mb-0 Aprenden a <b>valorar el esfuerzo propio y el ajeno,</b> así como a convivir respetuosamente con las diferencias.
 
-      h2 Integración de competencias para el desarrollo integral
-
-      .row.mb-4
-        .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-82.png', alt='Texto que describa la imagen')
-        .col-12.col-xl-8
-          p.mb-4 El desarrollo del cuerpo y el movimiento en relación con los demás está profundamente ligado al fortalecimiento de las competencias <b>sociales, emocionales, comunicativas y ciudadanas</b>. A través de la interacción con su entorno, los niños y niñas aprenden a:
-          .bg-amarillo.p-4(data-aos='fade-up').mb-4
-            div.d-flex
-              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
-              p Reconocer su cuerpo y actuar con autonomía.
-            div.d-flex
-              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
-              p Expresarse verbal y no verbalmente.
-            div.d-flex
-              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
-              p Regular sus emociones con confianza.
-            div.d-flex
-              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
-              p Respetar normas, colaborar y participar activamente.
-          p.mb-0 Este proceso educativo integral permite que el movimiento no sea solo una actividad física, sino una herramienta para construir vínculos significativos y comprender el mundo social que los rodea. 
-      p.mb-4 Al integrar estas competencias en la práctica pedagógica, se contribuye a la formación de niños y niñas <b>seguros, empáticos, respetuosos y cooperativos</b>. Así, el cuerpo en movimiento se transforma en un <b>medio de exploración personal y una vía esencial para la integración social y el desarrollo humano pleno</b>.
-
-      .row.bg-gris-oscuro.bg-full-width.py-4.mb-5
+      .row.bg-gris-oscuro.bg-full-width.py-4.mb-4
         div.px-5.pb-md-3.py-4.d-flex
-          .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
-            h2.mb-4.pb-2.me-auto El cuerpo y el movimiento en relación hacia el entorno
-            p.mb-5(data-aos="fade-up") Se invita a leer el documento El cuerpo y el movimiento en relación hacia el entorno , donde se aborda el papel fundamental del cuerpo y el movimiento en el desarrollo integral de los niños y niñas durante la primera infancia.
-            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/.pdf')" target="_blank")
-              img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
-              p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong>El cuerpo y el movimiento en relación hacia el entorno
           .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")
-            img.h-100(src='@/assets/curso/unidad/img-83.png', alt='Texto que describa la imagen')
+            img.h-100(src='@/assets/curso/unidad/img-55.png', alt='Texto que describa la imagen')
+          .col-12.col-xl-7.d-flex.ps-4.ps-xl-5.align-items-center.flex-column
+            h2.mb-4.pb-2.me-auto Elementos en la creación de ambientes educativos
+            p.mb-5(data-aos="fade-up") Se invita a leer el documento Elementos en la creación de ambientes educativos, donde se aborda el diseño y la implementación de entornos propicios para la enseñanza de la Educación Física. 
+            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_creacion.pdf')" target="_blank")
+              img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
+              p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Elementos en la creación de ambientes educativos
 
       .bg-full-width.border-top.actividad(style='background-color: #ebf1f5; border-top: 5px solid #f5c145 !important')
         .p-4.p-md-5
@@ -409,20 +363,13 @@
             .col-12.col-md-6.col-lg-8
               p.d-flex.my-4
                 img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://www.mineducacion.gov.co/primerainfancia/1739/articles-178053_archivo_PDF_libro_desarrolloinfantil.pdf") Ministerio de Educación Nacional de Colombia. (2009). Desarrollo infantil y competencias en la Primera infancia
-              
+                a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/60032?page=1") López Pastor, V. M. (2005). La educación física en educación infantil: una propuesta y algunas experiencias
               p.d-flex.my-4
-                img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/46052?page=1") Segura Morales, M. & Arcas Cuenca, M. (2011). Relacionarnos bien: programas de competencia social para niños y niñas de 4 a 12 años
-              
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://elibro.net/") Elibro
               p.d-flex.my-4
                 img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=JWM6HU3H_JI") [Vídeo] ¿Qué son las competencias emocionales? | #PalabraMaestra
-              
-              p.d-flex.my-4
-                img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=2swfGnnbglU") [Vídeo] El valor del juego en el desarrollo infantil
-            
+                a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=4hWQ-tOlPYI") Canal ISEP. (2020). ¡A mover el cuerpo! - Nivel Inicial - Educación Física | Tu escuela en casa [Vídeo]
             .col-12.col-md-6.col-lg-3
               figure
                 img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
@@ -436,7 +383,7 @@ export default {
   name: 'Tema2',
   data: () => ({
     cuestionario: {
-      tema: 'Educación Inicial y Desarrollo Infantil',
+      tema: 'Gimnasia en la primera infancia',
       titulo: 'Ponte a prueba',
       introduccion:
         'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
@@ -445,17 +392,29 @@ export default {
         {
           id: 1,
           texto:
-            '¿Qué actividad ayuda al desarrollo de la percepción temporal en los niños?',
+            '¿Cuál es uno de los beneficios principales de los ejercicios de gimnasia en la primera infancia?',
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Juegos de movimiento.', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Fomentan la competencia entre los niños.',
+              esCorrecta: false,
+            },
             {
               id: 'b',
-              texto: 'Uso de calendarios visuales.',
+              texto: 'Mejoran la coordinación, el equilibrio y la fuerza.',
               esCorrecta: true,
             },
-            { id: 'c', texto: 'Actividades de relajación.', esCorrecta: false },
-            { id: 'd', texto: 'Narraciones abstractas.', esCorrecta: false },
+            {
+              id: 'c',
+              texto: 'Limitan el movimiento libre de los niños.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reducen la interacción social en el aula.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
@@ -463,28 +422,27 @@ export default {
         {
           id: 2,
           texto:
-            '¿Cómo contribuyen las actividades sensoriales al aprendizaje infantil?',
+            'Según la OMS (2021), ¿qué característica define los ejercicios de gimnasia en la infancia?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Estimulan el desarrollo físico exclusivamente.',
+              texto: 'Se enfocan exclusivamente en la fuerza muscular.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Integran información para formar una imagen coherente del entorno.',
+              texto: 'Están adaptados a la edad y basados en el juego.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Fomentan la interacción social exclusivamente.',
+              texto: 'Son estrictamente reglamentados y competitivos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Facilitan el aprendizaje de normas abstractas.',
+              texto: 'Se centran solo en el entrenamiento de resistencia.',
               esCorrecta: false,
             },
           ],
@@ -494,17 +452,30 @@ export default {
         {
           id: 3,
           texto:
-            '¿Qué concepto se relaciona directamente con el uso de rompecabezas en la primera infancia?',
+            '¿Cuál de las siguientes estrategias favorece la creación de ambientes educativos inclusivos en Educación Física?',
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Regulación emocional.', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Utilizar solo materiales estándar sin adaptaciones.',
+              esCorrecta: false,
+            },
             {
               id: 'b',
-              texto: 'Representaciones espaciales.',
+              texto: 'Diseñar espacios con pocos elementos de exploración.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Garantizar accesibilidad y adaptar actividades a todas las capacidades.',
               esCorrecta: true,
             },
-            { id: 'c', texto: 'Percepción temporal.', esCorrecta: false },
-            { id: 'd', texto: 'Cooperación grupal.', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Priorizar ejercicios individuales sobre los colectivos.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
@@ -512,13 +483,30 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué habilidad se desarrolla al trabajar el enriquecimiento del vocabulario en la primera infancia?',
+            '¿Qué se recomienda incluir en una rutina básica de gimnasia para niños?',
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Coordinación motriz.', esCorrecta: false },
-            { id: 'b', texto: 'Regulación emocional.', esCorrecta: false },
-            { id: 'c', texto: 'Conciencia del espacio.', esCorrecta: false },
-            { id: 'd', texto: 'Expresión verbal.', esCorrecta: true },
+            {
+              id: 'a',
+              texto: 'Ejercicios con alto impacto y exigencia física.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Actividades de fuerza extrema sin supervisión.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Movimientos repetitivos sin variedad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Calentamiento, ejercicios básicos, juego activo y relajación.',
+              esCorrecta: true,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
@@ -526,29 +514,29 @@ export default {
         {
           id: 5,
           texto:
-            '¿Cómo se fomenta el aprendizaje experiencial en la educación inicial?',
+            '¿Por qué es importante la interacción social en la Educación Física?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Por medio de ejercicios abstractos.',
+              texto: 'Para evitar el aprendizaje autónomo.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Con actividades exclusivamente grupales.',
+              texto: 'Porque reemplaza la enseñanza teórica en la escuela.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'A través de la práctica directa e interacción con el entorno.',
-              esCorrecta: true,
+              texto: 'Para reducir el desarrollo motriz individual.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Mediante el estudio teórico únicamente.',
-              esCorrecta: false,
+              texto:
+                'Porque fomenta la cooperación, el respeto y el trabajo en equipo.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',

@@ -2,7 +2,7 @@
   .curso-main-container.creditos-vista
     BannerInterno(subTitulo="SÍNTESIS")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      p(data-aos="fade-up").mb-5 La Unidad 1, "Corporalidad y Formación Integral", explora cómo el cuerpo y el movimiento son esenciales para el desarrollo integral de los niños y niñas en la educación inicial. 
+      p(data-aos="fade-up").mb-5 La educación física es una disciplina fundamental en la formación integral de los niños y niñas, ya que contribuye al desarrollo de habilidades motrices, el bienestar físico y la interacción social. 
 
       .row.justify-content-center
         .col-lg-12.mb-5

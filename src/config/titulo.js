@@ -1,1 +1,1 @@
-module.exports = 'Corporalidad y formación Integral'
+module.exports = 'Educación Física'

@@ -3,17 +3,19 @@
   BannerInterno(subTitulo="Introducción")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
 
+    
     .row.mb-4
-      .col-10.col-lg-6.col-xl-4.mx-auto.bg-amarillo.p-4.d-flex(data-aos='fade-up')
-        span La primera unidad de esta asignatura, aborda la importancia del cuerpo y el movimiento como elementos esenciales en el desarrollo de los niños y niñas durante la educación inicial. Se explica cómo el cuerpo, más allá de ser un medio físico, es una herramienta fundamental para la interacción consigo mismo, con los demás y con el entorno. Este enfoque permite entender la corporalidad como un componente integral que contribuye a la construcción de habilidades, conocimientos y vínculos sociales.
+      .col-10.col-lg-6.col-xl-4.mx-auto.bg-azul-oscuro.p-4.d-flex(data-aos='fade-up')
+        span Esta unidad se centra en la creación de <b>ambientes de aprendizaje participativos</b>, diseñados para fomentar el desarrollo de habilidades motrices en la educación inicial. En este contexto, el aprendizaje se orienta hacia la planificación de espacios que favorezcan la actividad física de manera inclusiva, atendiendo a las necesidades de cada estudiante. La relación entre el diseño del entorno y el desarrollo motriz es clave para garantizar una enseñanza efectiva. Se explorarán diferentes enfoques metodológicos, materiales didácticos y estrategias pedagógicas que permitirán a los niños y niñas experimentar y mejorar sus habilidades en un ambiente seguro y motivador.
       .col-4.d-none.d-xl-block
         img(src='@/assets/curso/unidad/img-1.png', alt='Texto que describa la imagen')
-      .col-10.col-lg-6.col-xl-4.mx-auto.bg-gris.p-4.d-flex(data-aos='fade-up')
-        span Se busca que los estudiantes al diseñar ambientes de aprendizaje participativo donde los niños y niñas pueden explorar, experimentar y desarrollar; tengan en cuenta las competencias relacionadas con la conciencia corporal, el movimiento y la conexión con su entorno.
+      .col-10.col-lg-6.col-xl-4.mx-auto.bg-amarillo.p-4.d-flex(data-aos='fade-up')
+        span Entre los principales temas que se abordarán en esta unidad se encuentran los <b>ejercicios de gimnasia y la creación de ambientes educativos </b> adecuados para la realización de actividades físicas. Se analizarán propuestas para estructurar espacios dinámicos y accesibles que estimulen el movimiento, el juego y la expresión corporal. Además, se estudiará la importancia de integrar metodologías activas que promuevan la participación y el desarrollo motor desde edades tempranas.
 
     .row.bg-azul.bg-full-width.py-4.mb-4
-      div.px-5.pb-md-3
+      div.px-5
 
-        span La unidad presenta tres temas principales: <b>el cuerpo y el movimiento en relación consigo mismo</b>, <b>el cuerpo y el movimiento en relación hacia los demás</b>, y <b>el cuerpo y el movimiento en relación hacia el entorno</b>. A lo largo del desarrollo, se realizarán actividades prácticas, reflexiones y ejercicios pedagógicos que permitirán aplicar los conceptos desarrollados.
+        p.py-3 Se espera que los estudiantes participen de manera activa en las discusiones y actividades propuestas, comprendiendo la importancia de los ambientes educativos en el proceso de enseñanza de la educación física. Para aprovechar al máximo la unidad, se recomienda reflexionar sobre el impacto del entorno en el aprendizaje y aplicar los conocimientos adquiridos en el diseño de espacios adecuados para la educación inicial.
 
+    p
 </template>
